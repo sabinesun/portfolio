@@ -10,10 +10,32 @@ export default function Navbar() {
     <>
       <div
         className={
+          "absolute left-1/2 top-1/2  flex -translate-x-1/2 -translate-y-1/2 justify-center align-middle"
+        }
+      >
+        <div
+          className={`${
+            isOpen
+              ? "flex h-screen w-screen justify-center bg-white align-middle"
+              : "hidden"
+          }`}
+        >
+          <ul className={"z-0 flex flex-col justify-center align-middle"}>
+            <li className={"m-2"}>À propos</li>
+            <li className={"m-2"}>Mes compétences</li>
+            <li className={"m-2"}>Mon parcours</li>
+            <li className={"m-2"}>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div
+        className={
           "fixed flex w-full flex-row items-center justify-between p-8 md:p-14"
         }
       >
-        <div className={"flex flex-row items-center"}>
+        <div
+          className={`flex flex-row items-center ${isOpen ? "invisible" : ""}`}
+        >
           <Image
             src="/sun.svg"
             alt="sun Logo"
@@ -40,26 +62,6 @@ export default function Navbar() {
 
         <div className={"hidden md:flex"}>
           <ul className={"flex flex-row"}>
-            <li className={"m-2"}>À propos</li>
-            <li className={"m-2"}>Mes compétences</li>
-            <li className={"m-2"}>Mon parcours</li>
-            <li className={"m-2"}>Contact</li>
-          </ul>
-        </div>
-      </div>
-      <div
-        className={
-          "absolute left-1/2 top-1/2  flex -translate-x-1/2 -translate-y-1/2 justify-center align-middle"
-        }
-      >
-        <div
-          className={`${
-            isOpen
-              ? "flex h-screen w-screen justify-center bg-white align-middle"
-              : "hidden"
-          }`}
-        >
-          <ul className={"flex flex-col justify-center align-middle"}>
             <li className={"m-2"}>À propos</li>
             <li className={"m-2"}>Mes compétences</li>
             <li className={"m-2"}>Mon parcours</li>
