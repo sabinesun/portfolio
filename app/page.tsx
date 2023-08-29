@@ -5,7 +5,7 @@ import About from "@/components/about";
 export default function Home() {
   return (
     <>
-      <main>
+      <main className={"text-zinc-600"}>
         <Sidebar />
         <div className={"relative left-72 w-9/12"}>
           <Screen />

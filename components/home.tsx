@@ -5,7 +5,7 @@ export default function Screen() {
         <div
           className={"m-6 flex h-5/6 w-full flex-col flex-wrap justify-center"}
         >
-          <div className={"py-4 text-9xl"}>Hey !</div>
+          <div className={"py-4 text-9xl font-black text-black"}>Hey !</div>
           <div>
             {" "}
             Je suis (bientôt) fullstack developer mais ce que j'aime le plus

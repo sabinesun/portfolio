@@ -1,13 +1,15 @@
 import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import { EnvelopeClosedIcon } from "@radix-ui/react-icons";
+import { LinkedInLogoIcon } from "@radix-ui/react-icons";
+
 export default function Sidebar() {
   return (
     <>
       <div className={"fixed flex h-screen flex-wrap content-center"}>
-        <div
-          className={
-            "m-6 h-24/25 w-60 rounded-xl bg-white  shadow-lg shadow-slate-300"
-          }
-        >
+        <div className={" h-full w-60 border bg-white"}>
           <div className={"mx-5 my-8 flex h-24/25 flex-col"}>
             <div className={"flex content-center"}>
               <Image
@@ -22,59 +24,37 @@ export default function Sidebar() {
                 <span className={"flex flex-wrap content-end pb-1"}>
                   Sabine SUN
                 </span>
-                <span className={"text-xs text-slate-300"}>
-                  Software developer
+                <span className={"text-xs text-slate-400"}>
+                  Software engineer
                 </span>
               </div>
             </div>
-            <div className={"my-3 flex w-full gap-4"}>
-              <a
-                href="https://github.com/sabinesun"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={
-                  "flex h-8 flex-grow flex-wrap content-center justify-center rounded-lg shadow-sm shadow-slate-300"
-                }
-              >
-                <Image
-                  src="/Github.svg"
-                  alt="Github"
-                  width={20}
-                  height={20}
-                  priority
-                />
-              </a>
+            <div className={"my-3 flex w-full justify-around"}>
+              <Link href="https://github.com/sabinesun">
+                <Button
+                  variant="outline"
+                  size="default"
+                  className="hover:text-[#6e5494]"
+                >
+                  <GitHubLogoIcon className="hi h-4 w-4" />
+                </Button>
+              </Link>
 
-              <a
-                href="mailto:sabine.sun@hotmail.com"
-                className={
-                  "flex h-8 flex-grow flex-wrap content-center justify-center rounded-lg shadow-sm shadow-slate-300"
-                }
-              >
-                <Image
-                  src="/envelope.svg"
-                  alt="Mail"
-                  width={20}
-                  height={20}
-                  priority
-                />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/sabinesun/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={
-                  "flex h-8 flex-grow flex-wrap content-center justify-center rounded-lg shadow-sm shadow-slate-300"
-                }
-              >
-                <Image
-                  src="/LinkedIn.svg"
-                  alt="LinkedIn"
-                  width={16}
-                  height={16}
-                  priority
-                />
-              </a>
+              <Link href="mailto:sabine.sun@hotmail.com">
+                <Button variant="outline" size="default">
+                  <EnvelopeClosedIcon className="h-4 w-4" />
+                </Button>
+              </Link>
+
+              <Link href="https://www.linkedin.com/in/sabinesun/">
+                <Button
+                  variant="outline"
+                  size="default"
+                  className="hover:text-[#0e76a8]"
+                >
+                  <LinkedInLogoIcon className="h-4 w-4 " />
+                </Button>
+              </Link>
             </div>
             <div className={"my-11 flex flex-col gap-6"}>
               <div>
@@ -83,7 +63,7 @@ export default function Sidebar() {
                   <li className={"flex flex-row"}>
                     <Image
                       src="/chevron-right.svg"
-                      alt="LinkedIn"
+                      alt="chevron"
                       width={12}
                       height={12}
                       priority
