@@ -18,6 +18,9 @@ module.exports = {
       height: {
         "24/25": "96%",
       },
+      gridTemplateColumns: {
+        72: "repeat(72, minmax(0, 1fr))",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

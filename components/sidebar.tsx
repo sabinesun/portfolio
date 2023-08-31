@@ -9,7 +9,7 @@ export default function Sidebar() {
   return (
     <>
       <div className={"fixed flex h-screen flex-wrap content-center"}>
-        <div className={" h-full w-60 border bg-white"}>
+        <div className={" h-full w-60 border bg-white shadow-sm"}>
           <div className={"mx-5 my-8 flex h-24/25 flex-col"}>
             <div className={"flex content-center"}>
               <Image
