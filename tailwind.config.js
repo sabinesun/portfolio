@@ -21,6 +21,15 @@ module.exports = {
       gridTemplateColumns: {
         72: "repeat(72, minmax(0, 1fr))",
       },
+      gridColumn: {
+        "span-70": "span 70 / span 70",
+      },
+      gridColumnStart: {
+        24: "24",
+        34: "34",
+        48: "48",
+        55: "55",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
