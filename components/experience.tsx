@@ -4,6 +4,9 @@ import {
   HoverCardTrigger,
 } from "@/components/ui/hover-card";
 
+import Image from "next/image";
+import Esilv from "../public/esilv-logo.png";
+
 export default function Experience() {
   return (
     <>
@@ -69,12 +72,24 @@ export default function Experience() {
             </HoverCardTrigger>
             <HoverCardContent>
               <div>
-                <div className={"text-base"}>
-                  ESILV : Sept 2019 - Actuellement
+                <div className={"flex justify-between"}>
+                  <div>
+                    <div className={"text-base"}>
+                      ESILV : Sept 2019 - Actuellement
+                    </div>
+
+                    <div className={"pl-6 text-xs text-slate-400"}>
+                      Majeure Cybersecurity & Cloud Computing
+                    </div>
+                  </div>
+                  <Image
+                    src={"/esilv-logo.png"}
+                    width={40}
+                    height={40}
+                    alt="Picture of the author"
+                  />
                 </div>
-                <div className={"pl-6 text-xs text-slate-400"}>
-                  Majeure Cybersecurity & Cloud Computing
-                </div>
+
                 <ul className={"pl-6 pt-6"}>
                   <li className={"list-disc"}>
                     Formation initiale généraliste avec les bases scientifiques
@@ -100,12 +115,24 @@ export default function Experience() {
             </HoverCardTrigger>
             <HoverCardContent>
               <div>
-                <div className={"text-base"}>
-                  Cocktail Mix : Sept 2020 - Juin 2020
+                <div className={"flex justify-between"}>
+                  <div>
+                    <div className={"text-base"}>
+                      Cocktail Mix : Sept 2020 - Juin 2020
+                    </div>
+
+                    <div className={"pl-6 text-xs text-slate-400"}>
+                      Projet d'école
+                    </div>
+                  </div>
+                  <Image
+                    src={"/esilv-logo.png"}
+                    width={40}
+                    height={40}
+                    alt="Picture of the author"
+                  />
                 </div>
-                <div className={"pl-6 text-xs text-slate-400"}>
-                  Projet d'école
-                </div>
+
                 <ul className={"pl-6 pt-6"}>
                   <li className={"list-disc"}>
                     Sujet du projet : Construction d'un robot permettant de
@@ -136,12 +163,24 @@ export default function Experience() {
             </HoverCardTrigger>
             <HoverCardContent>
               <div>
-                <div className={"text-base"}>
-                  Cocktail Mix : Oct 2022 - Avril 2022
+                <div className={"flex justify-between"}>
+                  <div>
+                    <div className={"text-base"}>
+                      Sopra Steria : Oct 2022 - Avril 2022
+                    </div>
+
+                    <div className={"pl-6 text-xs text-slate-400"}>
+                      Projet d'école en partenariat avec Sopra Steria
+                    </div>
+                  </div>
+                  <Image
+                    src={"/sopra-steria-logo.jpeg"}
+                    width={40}
+                    height={40}
+                    alt="Picture of the author"
+                  />
                 </div>
-                <div className={"pl-6 text-xs text-slate-400"}>
-                  Projet d'école en partenariat avec Sopra Steria
-                </div>
+
                 <ul className={"pl-6 pt-6"}>
                   <li className={"list-disc"}>
                     Sujet du projet : Mettre à disposition des collaborateurs
@@ -172,12 +211,24 @@ export default function Experience() {
             </HoverCardTrigger>
             <HoverCardContent>
               <div>
-                <div className={"text-base"}>
-                  Dedouze : Juin 2021 - Sept 2021
+                <div className={"flex justify-between"}>
+                  <div>
+                    <div className={"text-base"}>
+                      Dedouze : Juin 2021 - Sept 2021
+                    </div>
+
+                    <div className={"pl-6 text-xs text-slate-400"}>
+                      Stage de découverte chez Dedouze
+                    </div>
+                  </div>
+                  <Image
+                    src={"/dedouze-logo.jpeg"}
+                    width={40}
+                    height={40}
+                    alt="Picture of the author"
+                  />
                 </div>
-                <div className={"pl-6 text-xs text-slate-400"}>
-                  Stage de découverte chez Dedouze
-                </div>
+
                 <ul className={"pl-6 pt-6"}>
                   <li className={"list-disc"}>
                     Missions techniques : Gestion de base de donnée des clients
@@ -206,12 +257,24 @@ export default function Experience() {
             </HoverCardTrigger>
             <HoverCardContent>
               <div>
-                <div className={"text-base"}>
-                  DCbrain : Avril 2023 - Aout 2023
+                <div className={"flex justify-between"}>
+                  <div>
+                    <div className={"text-base"}>
+                      DCbrain : Avril 2023 - Aout 2023
+                    </div>
+
+                    <div className={"pl-6 text-xs text-slate-400"}>
+                      Stage de 4ème année chez DCbrain
+                    </div>
+                  </div>
+                  <Image
+                    src={"/dcbrain-logo.png"}
+                    width={40}
+                    height={40}
+                    alt="Picture of the author"
+                  />
                 </div>
-                <div className={"pl-6 text-xs text-slate-400"}>
-                  Stage de 4ème année chez DCbrain
-                </div>
+
                 <ul className={"pl-6 pt-6"}>
                   <li className={"list-disc"}>
                     Missions techniques : Développement de composant front
