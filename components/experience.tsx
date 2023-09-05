@@ -5,11 +5,10 @@ import {
 } from "@/components/ui/hover-card";
 
 import Image from "next/image";
-import Esilv from "../public/esilv-logo.png";
 
 export default function Experience() {
   return (
-    <>
+    <div id="experience" className="snap-center">
       <div className={"flex h-screen flex-col justify-center"}>
         <div className={"py-4 text-7xl font-bold text-black"}>Timeline</div>
 
@@ -62,10 +61,10 @@ export default function Experience() {
             2024
           </div>
 
-          <HoverCard openDelay={100} closeDelay={100}>
+          <HoverCard openDelay={100} closeDelay={80}>
             <HoverCardTrigger
               className={
-                "col-span-70 col-start-1 row-span-1 row-start-2 mt-1 grid h-9 place-content-center overflow-hidden text-ellipsis whitespace-nowrap rounded-md border px-2 shadow-sm "
+                "col-span-70 col-start-1 row-span-1 row-start-2 mt-1 grid h-9 place-content-center overflow-hidden text-ellipsis whitespace-nowrap rounded-md border px-2 shadow-sm hover:border-[#f5cfdc] hover:shadow-[#fae7ee]"
               }
             >
               ESILV
@@ -104,11 +103,10 @@ export default function Experience() {
               </div>
             </HoverCardContent>
           </HoverCard>
-
-          <HoverCard openDelay={100} closeDelay={100}>
+          <HoverCard openDelay={100} closeDelay={80}>
             <HoverCardTrigger
               className={
-                "col-span-10 col-start-24 row-span-1 row-start-3 grid h-9 place-content-center overflow-hidden text-ellipsis whitespace-nowrap rounded-md border px-2 shadow-sm "
+                "col-span-10 col-start-24 row-span-1 row-start-3 grid h-9 place-content-center overflow-hidden text-ellipsis whitespace-nowrap rounded-md border px-2 shadow-sm hover:border-[#f5cfdc] hover:shadow-[#fae7ee]"
               }
             >
               Cocktail Mix
@@ -122,7 +120,7 @@ export default function Experience() {
                     </div>
 
                     <div className={"pl-6 text-xs text-slate-400"}>
-                      Projet d'école
+                      Projet d&apos;école
                     </div>
                   </div>
                   <Image
@@ -135,13 +133,14 @@ export default function Experience() {
 
                 <ul className={"pl-6 pt-6"}>
                   <li className={"list-disc"}>
-                    Sujet du projet : Construction d'un robot permettant de
-                    faire un cocktail à distance à l'aide d'un gant en équipe de
-                    six
+                    Sujet du projet : Construction d&apos;un robot permettant de
+                    faire un cocktail à distance à l&apos;aide d&apos;un gant en
+                    équipe de six
                   </li>
                   <li className={"list-disc"}>
-                    Missions : Élaboration d'un état de l'art, Construction d'un
-                    cahier des charges, Analyse Structurelle
+                    Missions : Élaboration d&apos;un état de l&apos;art,
+                    Construction d&apos;un cahier des charges, Analyse
+                    Structurelle
                   </li>
                   <li className={"list-disc"}>
                     Missions technique : Construction de la base, Écriture des
@@ -153,10 +152,10 @@ export default function Experience() {
             </HoverCardContent>
           </HoverCard>
 
-          <HoverCard openDelay={100} closeDelay={100}>
+          <HoverCard openDelay={100} closeDelay={80}>
             <HoverCardTrigger
               className={
-                "col-span-7 col-start-48 row-span-1 row-start-3 grid h-9 place-content-center overflow-hidden text-ellipsis whitespace-nowrap rounded-md border px-2 shadow-sm "
+                "col-span-7 col-start-48 row-span-1 row-start-3 grid h-9 place-content-center overflow-hidden text-ellipsis whitespace-nowrap rounded-md border px-2 shadow-sm hover:border-[#f7d2d4] hover:shadow-[#fbe9e9]"
               }
             >
               Battle Judge
@@ -170,7 +169,7 @@ export default function Experience() {
                     </div>
 
                     <div className={"pl-6 text-xs text-slate-400"}>
-                      Projet d'école en partenariat avec Sopra Steria
+                      Projet d&apos;école en partenariat avec Sopra Steria
                     </div>
                   </div>
                   <Image
@@ -189,8 +188,9 @@ export default function Experience() {
                   </li>
                   <li className={"list-disc"}>
                     Missions techniques : un écran de login avec role Admin /
-                    Juge / Participant, une IHM d'administration pour saisir des
-                    sujets d'exercice, modélisation des users cases
+                    Juge / Participant, une IHM d&apos;administration pour
+                    saisir des sujets d&apos;exercice, modélisation des users
+                    cases
                   </li>
                   <li className={"list-disc"}>
                     Javascript, React, MySQL, Visual Studio, Gestion de projet
@@ -201,10 +201,10 @@ export default function Experience() {
             </HoverCardContent>
           </HoverCard>
 
-          <HoverCard openDelay={100} closeDelay={100}>
+          <HoverCard openDelay={100} closeDelay={80}>
             <HoverCardTrigger
               className={
-                "col-span-3 col-start-34 row-span-1 row-start-4 mb-2 grid h-9 place-content-center overflow-hidden text-ellipsis whitespace-nowrap rounded-md border px-2 shadow-sm "
+                "col-span-3 col-start-34 row-span-1 row-start-4 mb-2 grid h-9 place-content-center overflow-hidden text-ellipsis whitespace-nowrap rounded-md border px-2 shadow-sm hover:border-[#f7d2d4] hover:shadow-[#fbe9e9]"
               }
             >
               Dedouze
@@ -247,10 +247,10 @@ export default function Experience() {
             </HoverCardContent>
           </HoverCard>
 
-          <HoverCard openDelay={100} closeDelay={100}>
+          <HoverCard openDelay={100} closeDelay={80}>
             <HoverCardTrigger
               className={
-                "col-span-5 col-start-55 row-span-1 row-start-4  mb-2 grid h-9 place-content-center overflow-hidden text-ellipsis whitespace-nowrap rounded-md border px-2 shadow-sm "
+                "col-span-5 col-start-55 row-span-1 row-start-4 mb-2 grid  h-9 place-content-center overflow-hidden text-ellipsis whitespace-nowrap rounded-md border px-2 shadow-sm hover:border-[#f7d2d4] hover:shadow-[#fbe9e9] "
               }
             >
               DCbrain{" "}
@@ -280,7 +280,7 @@ export default function Experience() {
                     Missions techniques : Développement de composant front
                   </li>
                   <li className={"list-disc"}>
-                    Typescript, CSS, Jira, travail d'équipe
+                    Typescript, CSS, Jira, travail d&apos;équipe
                   </li>
                 </ul>
               </div>
@@ -288,6 +288,6 @@ export default function Experience() {
           </HoverCard>
         </div>
       </div>
-    </>
+    </div>
   );
 }

@@ -1,6 +1,6 @@
-export default function Screen() {
+export default function Hero() {
   return (
-    <>
+    <div id={"hero"} className="snap-center">
       <div className={"flex h-screen "}>
         <div
           className={"m-6 flex h-5/6 w-full flex-col flex-wrap justify-center"}
@@ -17,6 +17,6 @@ export default function Screen() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

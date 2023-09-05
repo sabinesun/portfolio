@@ -8,27 +8,29 @@ import { LinkedInLogoIcon } from "@radix-ui/react-icons";
 export default function Sidebar() {
   return (
     <>
-      <div className={"fixed flex h-screen flex-wrap content-center"}>
+      <div className={"fixed flex h-screen flex-wrap content-center "}>
         <div className={" h-full w-60 border bg-white shadow-sm"}>
           <div className={"mx-5 my-8 flex h-24/25 flex-col"}>
-            <div className={"flex content-center"}>
-              <Image
-                src="/Image.png"
-                alt="sun Logo"
-                width={44}
-                height={44}
-                className={"h-11 w-11"}
-                priority
-              />
-              <div className={"flex flex-col p-2"}>
-                <span className={"flex flex-wrap content-end pb-1"}>
-                  Sabine SUN
-                </span>
-                <span className={"text-xs text-slate-400"}>
-                  Software engineer
-                </span>
+            <a href="#hero">
+              <div className={"flex flex-grow items-center"}>
+                <Image
+                  src="/Image.png"
+                  alt="sun Logo"
+                  width={44}
+                  height={44}
+                  className={"h-11 w-11"}
+                  priority
+                />
+                <div className={"flex flex-col p-2"}>
+                  <span className={"flex flex-wrap content-end pb-1"}>
+                    Sabine SUN
+                  </span>
+                  <span className={"text-xs text-slate-400"}>
+                    Software engineer
+                  </span>
+                </div>
               </div>
-            </div>
+            </a>
             <div className={"my-3 flex w-full justify-around"}>
               <Link href="https://github.com/sabinesun">
                 <Button
@@ -69,7 +71,8 @@ export default function Sidebar() {
                       priority
                       className={"mx-2"}
                     />
-                    À propos
+
+                    <a href="#about">À propos</a>
                   </li>
                   <li className={"flex flex-row"}>
                     <Image
@@ -80,7 +83,7 @@ export default function Sidebar() {
                       priority
                       className={"mx-2"}
                     />
-                    Mon parcours
+                    <a href="#experience"> Mon parcours</a>
                   </li>
                   <li className={"flex flex-row"}>
                     <Image
@@ -91,7 +94,7 @@ export default function Sidebar() {
                       priority
                       className={"mx-2"}
                     />
-                    Mon CV
+                    <a href="#curriculumVitae"> Mon CV</a>
                   </li>
                 </ul>
               </div>
