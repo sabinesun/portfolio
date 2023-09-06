@@ -1,31 +1,24 @@
-import Sidebar from "@/components/sidebar";
-import Hero from "@/components/hero";
-import About from "@/components/about";
-import Experience from "@/components/experience";
-import CurriculumVitae from "@/components/curriculum-vitae";
-import Dashboard from "@/components/dashboard";
+import { About } from "@/components/about";
+import { Experience } from "@/components/experience";
+import { Hero } from "@/components/hero";
+import { Sidebar } from "@/components/sidebar";
 
-export default function Home() {
+const Home = () => {
   return (
-    <>
-      <main className={"overflow-hidden text-zinc-600"}>
-        <Sidebar />
-        <div
-          className={
-            "relative left-72 h-screen w-9/12 snap-y snap-mandatory overflow-y-scroll  "
-          }
-        >
-          <Hero />
-          <About />
-          <Experience />
-          {/*
+    <main className="overflow-hidden text-justify text-zinc-600">
+      <Sidebar />
+      <div className="relative left-72 h-screen w-9/12 snap-y snap-mandatory overflow-y-scroll  ">
+        <Hero />
+        <About />
+        <Experience />
+        {/*
           <CurriculumVitae />
 */}
-          {/*
-          <Dashboard />
-*/}
-        </div>
-      </main>
-    </>
+
+        {/*  <Dashboard />*/}
+      </div>
+    </main>
   );
-}
+};
+
+export default Home;

@@ -1,9 +1,9 @@
-export default function About() {
+export const About = () => {
   return (
-    <div id="about" className="snap-center">
-      <div className={"flex h-screen "}>
-        <div className={"m-6 flex  flex-col flex-wrap justify-center"}>
-          <div className={"py-4 text-7xl font-bold text-black"}>À propos</div>
+    <div className="snap-center" id="about">
+      <div className="flex h-screen ">
+        <div className="m-6 flex  flex-col flex-wrap justify-center">
+          <div className="py-4 text-7xl font-bold text-black">À propos</div>
           <div>
             Mon nom est Sabine Sun, je suis actuellement en 5ème année à l'ESILV
             en spécialisation Cybersécurité & Cloud Computing. Je vise à devenir
@@ -27,4 +27,4 @@ export default function About() {
       </div>
     </div>
   );
-}
+};

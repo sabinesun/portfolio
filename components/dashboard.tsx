@@ -1,12 +1,13 @@
-import Experience from "@/components/experience";
+import { Experience } from "@/components/experience";
 
-export default function Dashboard() {
+export const Dashboard = () => {
   return (
-    <div id="about" className="snap-center">
-      <div className={"flex h-screen "}>
-        <div className={"m-6 flex  flex-col justify-center"}>
-          <div className={"py-4 text-7xl font-bold text-black"}>Dashboard</div>
-          <Experience></Experience>
+    <div className="snap-center" id="about">
+      <div className="flex h-screen ">
+        <div className="m-6 flex  flex-col justify-center">
+          <div className="py-4 text-7xl font-bold text-black">Dashboard</div>
+
+          <Experience />
         </div>
       </div>
     </div>

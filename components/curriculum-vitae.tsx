@@ -1,9 +1,9 @@
-export default function CurriculumVitae() {
+export const CurriculumVitae = () => {
   return (
-    <div id="curriculumVitae" className="snap-center">
-      <div className={"flex h-screen "}>
-        <div className={"m-6 flex flex-col flex-wrap justify-center"}>
-          <div className={"py-4 text-7xl font-bold text-black"}>
+    <div className="snap-center" id="curriculumVitae">
+      <div className="flex h-screen ">
+        <div className="m-6 flex flex-col flex-wrap justify-center">
+          <div className="py-4 text-7xl font-bold text-black">
             Curriculum Vitae
           </div>
         </div>

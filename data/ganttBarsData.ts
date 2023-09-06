@@ -1,37 +1,32 @@
 export const ganttBarsData = [
   {
-    title: "ESILV",
-    subtitle: "Majeure Cybersecurity & Cloud Computing",
-    logo: "/esilv-logo.png",
-    startDate: "2018-09-01",
-    endDate: "2024-08-01",
-    rows: 2,
     content: [
       "Formation initiale généraliste avec les bases scientifiques",
       "Projet scientifique et techniques",
       "Disciplines transversales soft skills",
     ],
-  },
-  {
-    title: "Cocktail Mix",
-    subtitle: "Projet d'école",
+    dateBegin: new Date(2_018, 9),
+    dateEnd: new Date(2_024, 7),
     logo: "/esilv-logo.png",
-    startDate: "2020-09-01",
-    endDate: "2021-06-01",
-    rows: 3,
+    rows: 2,
+    subtitle: "Majeure Cybersecurity & Cloud Computing",
+    title: "ESILV",
+  },
+
+  {
     content: [
       "Sujet du projet : Construction d'un robot permettant de faire un cocktail à distance à l'aide d'un gant en équipe de six",
       "Missions : Élaboration d'un état de l'art, Construction d'un cahier des charges, Analyse Structurelle",
       "Missions technique : Construction de la base, Écriture des codes en C++ permettant de connecté le robot au gant, Écriture des codes pour faire fonctionner la base",
     ],
+    dateBegin: new Date(2_020, 9),
+    dateEnd: new Date(2_021, 6),
+    logo: "/esilv-logo.png",
+    rows: 3,
+    subtitle: "Projet d'école",
+    title: "Cocktail Mix",
   },
   {
-    title: " Battle Judge",
-    subtitle: " Projet d&apos;école en partenariat avec Sopra Steria",
-    logo: "/sopra-steria-logo.jpeg",
-    startDate: "2022-09-01",
-    endDate: "2023-04-01",
-    rows: 3,
     content: [
       " Sujet du projet : Mettre à disposition des collaborateurs\n" +
         "                    SopraSteria une application permettant de gérer des battles\n" +
@@ -43,15 +38,15 @@ export const ganttBarsData = [
       "Javascript, React, MySQL, Visual Studio, Gestion de projet\n" +
         "                    agile en tant que référente",
     ],
+    dateBegin: new Date(2_022, 9),
+    dateEnd: new Date(2_023, 4),
+    logo: "/sopra-steria-logo.jpeg",
+    rows: 3,
+    subtitle: " Projet d&apos;école en partenariat avec Sopra Steria",
+    title: " Battle Judge",
   },
 
   {
-    title: "Dedouze",
-    subtitle: "Stage de découverte chez Dedouze",
-    logo: "/dedouze-logo.jpeg",
-    startDate: "2021-06-01",
-    endDate: "2021-09-01",
-    rows: 4,
     content: [
       " Missions techniques : Gestion de base de donnée des clients\n" +
         "                    \\& des commandes, Automatisation du Google sheet",
@@ -59,17 +54,23 @@ export const ganttBarsData = [
         "                    Gestion de mails",
       " Google Sheet, Google App Script, Clip Studio Paint, Gestion des commandes ",
     ],
+    dateBegin: new Date(2_021, 6),
+    dateEnd: new Date(2_021, 9),
+    logo: "/dedouze-logo.jpeg",
+    rows: 4,
+    subtitle: "Stage de découverte chez Dedouze",
+    title: "Dedouze",
   },
   {
-    title: "DCbrain",
-    subtitle: " Stage de 4ème année chez DCbrain",
-    logo: "/dcbrain-logo.png",
-    startDate: "2023-04-01",
-    endDate: "2023-09-01",
-    rows: 4,
     content: [
       "  Missions techniques : Développement de composant front",
       "  Typescript, CSS, Jira, travail d&apos;équipe",
     ],
+    dateBegin: new Date(2_023, 4),
+    dateEnd: new Date(2_023, 9),
+    logo: "/dcbrain-logo.png",
+    rows: 4,
+    subtitle: " Stage de 4ème année chez DCbrain",
+    title: "DCbrain",
   },
 ];
