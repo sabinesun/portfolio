@@ -2,9 +2,7 @@ export default function Hero() {
   return (
     <div id={"hero"} className="snap-center">
       <div className={"flex h-screen "}>
-        <div
-          className={"m-6 flex h-5/6 w-full flex-col flex-wrap justify-center"}
-        >
+        <div className={"m-6 flex w-full flex-col flex-wrap justify-center"}>
           <div className={"py-4 text-9xl font-black text-black"}>Hey !</div>
           <div>
             {" "}
