@@ -5,9 +5,7 @@ export const Hero = () => {
   return (
     <div className="snap-center" id="hero">
       <div className="flex h-screen flex-col p-6 ">
-        <div
-          className=" flex w-full flex-1 flex-col flex-wrap justify-center"
-        >
+        <div className=" flex w-full flex-1 flex-col flex-wrap justify-center">
           <div className="py-4 text-9xl font-black text-black">Hey !</div>
           <div>
             {" "}
@@ -19,11 +17,13 @@ export const Hero = () => {
           </div>
         </div>
         <div className="flex animate-bounce flex-wrap justify-center ">
-          <Button className="rounded-2xl" size="icon" variant="ghost">
-            <ChevronDownIcon className="h-8 w-8" />
-          </Button>
+          <a href="#about">
+            <Button className="rounded-2xl" size="icon" variant="ghost">
+              <ChevronDownIcon className="h-8 w-8" />
+            </Button>
+          </a>
         </div>
       </div>
     </div>
   );
-}
+};

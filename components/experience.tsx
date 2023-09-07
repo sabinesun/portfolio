@@ -11,7 +11,7 @@ export const Experience = () => {
   }
 
   return (
-    <div className="snap-center" id="experience">
+    <div className="" id="experience">
       <div className="flex h-screen flex-col justify-center">
         <div className="py-4 text-7xl font-bold text-black">Timeline</div>
         <div className="grid grid-cols-72 grid-rows-4 gap-y-2 border-y pb-2">

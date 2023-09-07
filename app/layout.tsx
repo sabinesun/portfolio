@@ -8,13 +8,14 @@ export const metadata = {
   title: "Create Next App",
 };
 
+// eslint-disable-next-line react/function-component-definition
 export default function RootLayout({
   children,
 }: {
   readonly children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html className="scroll-smooth" lang="en">
       <body className={inter.className}>{children}</body>
     </html>
   );

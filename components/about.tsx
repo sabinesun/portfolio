@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <div className="snap-center" id="about">
+    <div className="" id="about">
       <div className="flex h-screen ">
         <div className="m-6 flex  flex-col flex-wrap justify-center">
           <div className="py-4 text-7xl font-bold text-black">À propos</div>
