@@ -18,6 +18,7 @@ export const Experience = () => {
           <div className=" col-span-3 row-span-1 row-start-1 grid border-b px-2 ">
             &nbsp;
           </div>
+
           {years.map((year: number) => (
             <div
               className=" col-span-12 row-span-1 row-start-1 grid  content-center border-b  px-2"
