@@ -17,8 +17,8 @@ export const Sidebar = () => {
 
   const sidebarProjectItems: Array<{ href: string; label: string }> = [];
   sidebarProjectItems.push({ href: "#test", label: "Snake" });
-  sidebarProjectItems.push({ href: "#test", label: "Délice de Yifan" });
-  sidebarProjectItems.push({ href: "#test", label: "To-do List" });
+  sidebarProjectItems.push({ href: "#test2", label: "Délice de Yifan" });
+  sidebarProjectItems.push({ href: "#test3", label: "To-do List" });
 
   return (
     <div className="fixed flex h-screen flex-wrap content-center ">

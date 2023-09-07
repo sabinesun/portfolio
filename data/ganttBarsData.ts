@@ -7,6 +7,7 @@ export const ganttBarsData = [
     ],
     dateBegin: new Date(2_018, 9),
     dateEnd: new Date(2_024, 7),
+    hardskills: ["C++", "C#", "Javascript", "Gitlab", "Github", "SQL", "HTML"],
     logo: "/esilv-logo.png",
     rows: 2,
     subtitle: "Majeure Cybersecurity & Cloud Computing",
@@ -17,10 +18,10 @@ export const ganttBarsData = [
     content: [
       "Sujet du projet : Construction d'un robot permettant de faire un cocktail à distance à l'aide d'un gant en équipe de six",
       "Missions : Élaboration d'un état de l'art, Construction d'un cahier des charges, Analyse Structurelle",
-      "Missions technique : Construction de la base, Écriture des codes en C++ permettant de connecté le robot au gant, Écriture des codes pour faire fonctionner la base",
     ],
     dateBegin: new Date(2_020, 9),
     dateEnd: new Date(2_021, 6),
+    hardskills: ["C++"],
     logo: "/esilv-logo.png",
     rows: 3,
     subtitle: "Projet d'école",
@@ -35,11 +36,10 @@ export const ganttBarsData = [
         "                    Juge / Participant, une IHM d&apos;administration pour\n" +
         "                    saisir des sujets d&apos;exercice, modélisation des users\n" +
         "                    cases",
-      "Javascript, React, MySQL, Visual Studio, Gestion de projet\n" +
-        "                    agile en tant que référente",
     ],
     dateBegin: new Date(2_022, 9),
     dateEnd: new Date(2_023, 4),
+    hardskills: ["Javascript", "React", "SQL"],
     logo: "/sopra-steria-logo.jpeg",
     rows: 3,
     subtitle: " Projet d&apos;école en partenariat avec Sopra Steria",
@@ -52,22 +52,22 @@ export const ganttBarsData = [
         "                    \\& des commandes, Automatisation du Google sheet",
       " Missions manuelles : Fabrication \\& envoie de posters,\n" +
         "                    Gestion de mails",
-      " Google Sheet, Google App Script, Clip Studio Paint, Gestion des commandes ",
     ],
+
     dateBegin: new Date(2_021, 6),
     dateEnd: new Date(2_021, 9),
+    hardskills: [],
     logo: "/dedouze-logo.jpeg",
     rows: 4,
     subtitle: "Stage de découverte chez Dedouze",
     title: "Dedouze",
   },
   {
-    content: [
-      "  Missions techniques : Développement de composant front",
-      "  Typescript, CSS, Jira, travail d&apos;équipe",
-    ],
+    content: ["  Missions techniques : Développement de composant front"],
+
     dateBegin: new Date(2_023, 4),
     dateEnd: new Date(2_023, 9),
+    hardskills: ["Typescript", "CSS"],
     logo: "/dcbrain-logo.png",
     rows: 4,
     subtitle: " Stage de 4ème année chez DCbrain",
