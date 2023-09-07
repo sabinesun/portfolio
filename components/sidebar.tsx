@@ -16,9 +16,9 @@ export const Sidebar = () => {
   sidebarMeItems.push({ href: "#curriculumVitae", label: "Mon CV" });
 
   const sidebarProjectItems: Array<{ href: string; label: string }> = [];
-  sidebarProjectItems.push({ href: "#about", label: "Snake" });
-  sidebarProjectItems.push({ href: "#experience", label: "Délice de Yifan" });
-  sidebarProjectItems.push({ href: "#curriculumVitae", label: "To-do List" });
+  sidebarProjectItems.push({ href: "#test", label: "Snake" });
+  sidebarProjectItems.push({ href: "#test", label: "Délice de Yifan" });
+  sidebarProjectItems.push({ href: "#test", label: "To-do List" });
 
   return (
     <div className="fixed flex h-screen flex-wrap content-center ">
@@ -58,7 +58,7 @@ export const Sidebar = () => {
 
             <Link href="mailto:sabine.sun@hotmail.com">
               <Button
-                className="hover:border-[rgba(110,_84,_148,_0.2)] hover:bg-transparent hover:text-[#A52418] hover:shadow-[0px_0px_10px_0px_rgba(110,_84,_148,_0.1)] "
+                className="hover:border-[rgba(148,_84,_85,_0.2)] hover:bg-transparent hover:text-[#945455] hover:shadow-[0px_0px_10px_0px_rgba(148,_84,_85,_0.1)] "
                 size="default"
                 variant="outline"
               >
@@ -68,7 +68,7 @@ export const Sidebar = () => {
 
             <Link href="https://www.linkedin.com/in/sabinesun/">
               <Button
-                className="hover:border-[shadow-[rgba(223,_67,_53,_0.2)]] hover:bg-transparent hover:text-[#0e76a8] hover:shadow-[shadow-[0px_0px_300px_0px_rgba(223,_67,_53,_0.1)]]"
+                className="hover:border-[rgba(14,_118,_168,_0.2)] hover:bg-transparent hover:text-[#0e76a8] hover:shadow-[0px_0px_10px_0px_rgba(14,_118,_168,_0.1)] "
                 size="default"
                 variant="outline"
               >

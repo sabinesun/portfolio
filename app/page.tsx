@@ -10,7 +10,9 @@ const Home = () => {
       <Sidebar />
       <div className="relative left-72 h-screen w-9/12">
         <Hero />
+
         <About />
+
         <Experience />
       </div>
     </main>
