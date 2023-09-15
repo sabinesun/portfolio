@@ -13,11 +13,7 @@ export const Sidebar = () => {
   const sidebarMeItems: Array<{ href: string; label: string }> = [];
   sidebarMeItems.push({ href: "#about", label: "À propos" });
   sidebarMeItems.push({ href: "#experience", label: "Mon parcours" });
-
-  const sidebarProjectItems: Array<{ href: string; label: string }> = [];
-  sidebarProjectItems.push({ href: "#test", label: "Snake" });
-  sidebarProjectItems.push({ href: "#test2", label: "Délice de Yifan" });
-  sidebarProjectItems.push({ href: "#test3", label: "To-do List" });
+  sidebarMeItems.push({ href: "#project", label: "Mes projets" });
 
   return (
     <div className="fixed flex h-screen flex-wrap content-center ">
@@ -83,18 +79,6 @@ export const Sidebar = () => {
                 {sidebarMeItems.map((item) => (
                   <li className="flex flex-row items-center" key={item.href}>
                     <CaretRightIcon className="h-4 w-4" />
-                    <a href={item.href}>{item.label}</a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <span className="text-xs text-slate-300">Mon travail</span>
-              <ul className=" my-2 ">
-                {sidebarProjectItems.map((item) => (
-                  <li className="flex flex-row items-center" key={item.href}>
-                    <CaretRightIcon className="h-4 w-4" />
-
                     <a href={item.href}>{item.label}</a>
                   </li>
                 ))}

@@ -2,6 +2,7 @@
 import { About } from "@/components/about";
 import { Experience } from "@/components/experience";
 import { Hero } from "@/components/hero";
+import { Projects } from "@/components/projects";
 import { Sidebar } from "@/components/sidebar";
 import { Button } from "@/components/ui/button";
 import { SunIcon } from "@radix-ui/react-icons";
@@ -19,6 +20,7 @@ const Home = () => {
         <Hero />
         <About />
         <Experience />
+        <Projects />
       </div>
     </main>
   );
