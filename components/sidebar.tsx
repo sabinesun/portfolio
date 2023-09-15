@@ -13,7 +13,6 @@ export const Sidebar = () => {
   const sidebarMeItems: Array<{ href: string; label: string }> = [];
   sidebarMeItems.push({ href: "#about", label: "À propos" });
   sidebarMeItems.push({ href: "#experience", label: "Mon parcours" });
-  sidebarMeItems.push({ href: "#curriculumVitae", label: "Mon CV" });
 
   const sidebarProjectItems: Array<{ href: string; label: string }> = [];
   sidebarProjectItems.push({ href: "#test", label: "Snake" });

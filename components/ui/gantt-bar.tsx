@@ -14,6 +14,7 @@ export type GanttBarProps = {
     hardskills: string[];
     logo: string;
     rows: number;
+    softskills: string[];
     subtitle: string;
     title: string;
   };
@@ -30,6 +31,7 @@ export const GanttBar = ({ data, setHover }: GanttBarProps) => {
     logo,
     subtitle,
     hardskills,
+    softskills,
   } = data;
 
   const months: number = (dateEnd.getFullYear() - dateBegin.getFullYear()) * 12;
@@ -51,7 +53,7 @@ export const GanttBar = ({ data, setHover }: GanttBarProps) => {
       closeDelay={80}
       onOpenChange={(isOpen) => {
         if (isOpen) {
-          setHover(hardskills ?? []);
+          setHover(hardskills.concat(softskills) ?? []);
         } else {
           setHover([]);
         }
@@ -59,13 +61,13 @@ export const GanttBar = ({ data, setHover }: GanttBarProps) => {
       openDelay={100}
     >
       <HoverCardTrigger
-        className=" mt-1 grid h-9 place-content-center overflow-hidden text-ellipsis whitespace-nowrap rounded-md border px-2 shadow-sm hover:border-[#f5cfdc] hover:shadow-[#fae7ee]"
+        className="mt-1 grid h-9 place-content-center whitespace-nowrap  rounded-md border px-2 text-sm shadow-sm hover:border-[#f5cfdc] hover:shadow-[#fae7ee]"
         style={{
           gridColumn: monthStart + "/ span " + monthsBetween,
           gridRow: rows + "/ span 1",
         }}
       >
-        {title}
+        <div className="overflow-hidden text-ellipsis">{title}</div>
       </HoverCardTrigger>
       <HoverCardContent>
         <div>
@@ -85,7 +87,7 @@ export const GanttBar = ({ data, setHover }: GanttBarProps) => {
                   })}
               </div>
 
-              <div className="pl-6 text-xs text-slate-400">{subtitle}</div>
+              <div className=" text-xs text-slate-400">{subtitle}</div>
             </div>
             <Image
               alt="Picture of the author"
