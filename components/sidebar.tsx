@@ -7,7 +7,6 @@ import {
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
 import Image from "next/image";
-import Link from "next/link";
 
 export const Sidebar = () => {
   const sidebarMeItems: Array<{ href: string; label: string }> = [];
@@ -41,7 +40,7 @@ export const Sidebar = () => {
           </a>
 
           <div className="my-3 flex w-full justify-around ">
-            <Link href="https://github.com/sabinesun">
+            <a href="https://github.com/sabinesun">
               <Button
                 className="hover:border-[rgba(110,_84,_148,_0.2)] hover:bg-transparent hover:text-[#6e5494] hover:shadow-[0px_0px_10px_0px_rgba(110,_84,_148,_0.1)] "
                 size="default"
@@ -49,9 +48,9 @@ export const Sidebar = () => {
               >
                 <GitHubLogoIcon className="h-4 w-4" />
               </Button>
-            </Link>
+            </a>
 
-            <Link href="mailto:sabine.sun@hotmail.com">
+            <a href="mailto:sabine.sun@hotmail.com">
               <Button
                 className="hover:border-[rgba(148,_84,_85,_0.2)] hover:bg-transparent hover:text-[#945455] hover:shadow-[0px_0px_10px_0px_rgba(148,_84,_85,_0.1)] "
                 size="default"
@@ -59,9 +58,9 @@ export const Sidebar = () => {
               >
                 <EnvelopeClosedIcon className="h-4 w-4" />
               </Button>
-            </Link>
+            </a>
 
-            <Link href="https://www.linkedin.com/in/sabinesun/">
+            <a href="https://www.linkedin.com/in/sabinesun/">
               <Button
                 className="hover:border-[rgba(14,_118,_168,_0.2)] hover:bg-transparent hover:text-[#0e76a8] hover:shadow-[0px_0px_10px_0px_rgba(14,_118,_168,_0.1)] "
                 size="default"
@@ -69,7 +68,7 @@ export const Sidebar = () => {
               >
                 <LinkedInLogoIcon className="h-4 w-4" />
               </Button>
-            </Link>
+            </a>
           </div>
 
           <div className="my-11 flex flex-col gap-6">

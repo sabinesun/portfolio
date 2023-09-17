@@ -1,4 +1,5 @@
 "use client";
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { GanttBar } from "@/components/ui/gantt-bar";
 import {
@@ -78,17 +79,17 @@ export const Experience = () => {
 
           <div className="flex flex-wrap gap-2">
             {softskillsData.map((softskillData) => (
-              <div
-                className={`${
-                  hover.includes(softskillData.label)
-                    ? softskillData.colorClass
-                    : "text-slate-300"
-                } ${
-                  softskillData.hoverColorClass
-                }  inline-flex h-9 w-auto flex-wrap items-center justify-center whitespace-nowrap rounded border px-2`}
-                key={softskillData.label}
-              >
-                {softskillData.label}
+              <div key={softskillData.label}>
+                <Badge
+                  className={`${
+                    hover.includes(softskillData.label)
+                      ? softskillData.colorClass
+                      : "text-slate-300"
+                  } ${softskillData.hoverColorClass} `}
+                  variant="outline"
+                >
+                  {softskillData.label}
+                </Badge>
               </div>
             ))}
           </div>
