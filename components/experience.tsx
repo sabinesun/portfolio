@@ -48,30 +48,39 @@ export const Experience = () => {
           <UploadIcon className=" mr-2 h-4 w-4  " /> Télécharger le CV
         </Button>
       </div>
-      <div className="grid grid-cols-72 grid-rows-4 gap-y-2 border-y pb-2">
-        <div className=" col-span-3 row-span-1 row-start-1 grid border-b px-2 ">
-          &nbsp;
+
+      <div className="flex flex-row">
+        <div className="grid grid-rows-4 gap-y-2 whitespace-nowrap pb-2 pr-4">
+          <div className=""> &nbsp; </div>
+          <div className="flex flex-wrap content-center"> Education </div>
+          <div className="flex flex-wrap content-center"> Professionel </div>
+          <div className="flex flex-wrap content-center"> Projet d'école </div>
         </div>
-
-        {years.map((year: number) => (
-          <div
-            className="col-span-12 row-span-1 row-start-1 grid  content-center border-b  px-2"
-            key={year}
-          >
-            {year}
+        <div className="grid grid-cols-72 grid-rows-4 gap-y-2 border-y pb-2">
+          <div className=" col-span-3 row-span-1 row-start-1 grid border-b px-2 ">
+            &nbsp;
           </div>
-        ))}
 
-        {ganttBarsData.map((barData) => (
-          <GanttBar
-            data={barData}
-            key={barData.title + barData.dateBegin}
-            setHover={setHover}
-          />
-        ))}
+          {years.map((year: number) => (
+            <div
+              className="col-span-12 row-span-1 row-start-1 grid  content-center border-b  px-2"
+              key={year}
+            >
+              {year}
+            </div>
+          ))}
+
+          {ganttBarsData.map((barData) => (
+            <GanttBar
+              data={barData}
+              key={barData.title + barData.dateBegin}
+              setHover={setHover}
+            />
+          ))}
+        </div>
       </div>
 
-      <div className="mt-10 flex flex-row flex-wrap justify-evenly">
+      <div className="mt-10 flex flex-row flex-wrap justify-end">
         <div className="flex w-2/5 flex-col">
           <div className="flex justify-center py-4 text-xl font-bold ">
             Softskills
