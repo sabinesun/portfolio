@@ -15,7 +15,7 @@ const Home = () => {
       <div className="hidden sm:flex">
         <Sidebar />
       </div>
-      <div className="w-auto 	sm:ml-60">
+      <div className="w-auto sm:ml-60">
         <Hero />
         <About />
         <Experience />
