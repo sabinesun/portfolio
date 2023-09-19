@@ -7,10 +7,7 @@ export const Hero = () => {
       <div className=" flex w-full flex-1 flex-col flex-wrap justify-center">
         <div className="py-4 text-9xl font-black text-black">Hey !</div>
         <div> Software engineer en devenir, mais surtout front developer. </div>
-        <div>
-          J'aime coder de belle interface, si c'est ce que tu recherches,
-          contactes moi !
-        </div>
+        <div> À la recherche d'un stage de fin d'étude ! </div>
       </div>
       <div className="flex animate-bounce flex-wrap justify-center ">
         <a href="#about">

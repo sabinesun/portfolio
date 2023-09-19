@@ -41,7 +41,7 @@ export const Experience = () => {
   }
 
   return (
-    <div className="flex h-screen flex-col justify-center" id="experience">
+    <div className="m-6 flex h-screen flex-col justify-center" id="experience">
       <div className="flex flex-row flex-wrap items-end justify-between py-4">
         <div className=" text-7xl font-bold text-black">Timeline</div>
         <Button className="mb-2" variant="outline">
