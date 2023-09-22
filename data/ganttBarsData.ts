@@ -5,7 +5,7 @@ export const ganttBarsData = [
       "Projet scientifique et techniques",
       "Disciplines transversales soft skills",
     ],
-    dateBegin: new Date(2_018, 9),
+    dateBegin: new Date(2_019, 9),
     dateEnd: new Date(2_024, 7),
     hardskills: [
       "C++",
@@ -44,8 +44,8 @@ export const ganttBarsData = [
         "                    SopraSteria une application permettant de gérer des battles\n" +
         "                    de code en équipe de six",
       " Missions techniques : un écran de login avec role Admin /\n" +
-        "                    Juge / Participant, une IHM d&apos;administration pour\n" +
-        "                    saisir des sujets d&apos;exercice, modélisation des users\n" +
+        "                    Juge / Participant, une IHM d'administration pour\n" +
+        "                    saisir des sujets d'exercice, modélisation des users\n" +
         "                    cases",
     ],
     dateBegin: new Date(2_022, 9),
@@ -54,7 +54,7 @@ export const ganttBarsData = [
     logo: "/sopra-steria-logo.jpeg",
     rows: 4,
     softskills: ["Travail d'équipe", "Gestion de projet", "Esprit critique"],
-    subtitle: " Projet d&apos;école en partenariat avec Sopra Steria",
+    subtitle: " Projet d'école en partenariat avec Sopra Steria",
     title: " Battle Judge",
   },
 
