@@ -15,4 +15,12 @@ export const projectData = [
     subtitle: "Retrouve tes villageois préférés !",
     title: "Animal Crossing list",
   },
+  {
+    github: "https://github.com/bastiensun/tmp",
+    hardskills: ["React", "Typescript", "Tailwind"],
+    inProgress: true,
+    link: "https://yifan.vercel.app",
+    subtitle: "Commandez en avance pour gagner du temps !",
+    title: "Délice de Yifan",
+  },
 ];

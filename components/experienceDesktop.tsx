@@ -12,10 +12,10 @@ import { softskillsData } from "@/data/softskillsData";
 import { type Dispatch, type SetStateAction } from "react";
 
 /*
-text-[#E3552E] hover:text-[#E3552E] hover:border-[#E3552E]
-text-[#2E53E5] hover:text-[#2E53E5] hover:border-[#2E53E5]
-text-[#41BEF8] hover:text-[#41BEF8] hover:border-[#41BEF8]
-text-[#DBBB36] hover:text-[#DBBB36] hover:border-[#DBBB36]
+text-[#E3552E] hover:text-[#E3552E]
+text-[#2E53E5] hover:text-[#2E53E5]
+text-[#41BEF8] hover:text-[#41BEF8]
+text-[#DBBB36] hover:text-[#DBBB36]
 text-[#4CA53F] hover:text-[#4CA53F]
 text-[#387BC8] hover:text-[#387BC8]
 text-[#67DAFB] hover:text-[#67DAFB]
