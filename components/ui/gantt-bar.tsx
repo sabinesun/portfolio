@@ -61,7 +61,7 @@ export const GanttBar = ({ data, setHover }: GanttBarProps) => {
       openDelay={100}
     >
       <HoverCardTrigger
-        className="mt-1 grid h-9 place-content-center whitespace-nowrap  rounded-md border px-2 shadow-sm hover:border-[#f5cfdc] hover:shadow-[#fae7ee]"
+        className="mt-1 grid h-9 place-content-center whitespace-nowrap  rounded-md border px-2 shadow-sm hover:border-[#CFBDEC]/50 "
         style={{
           gridColumn: monthStart + "/ span " + monthsBetween,
           gridRow: rows + "/ span 1",

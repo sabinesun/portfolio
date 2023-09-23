@@ -78,20 +78,22 @@ export const ExperienceDesktop = ({
           </div>
 
           <div className="flex flex-wrap gap-2">
-            {softskillsData.map((softskillData) => (
-              <div key={softskillData.label}>
-                <Badge
-                  className={`${
-                    hover.includes(softskillData.label)
-                      ? softskillData.colorClass
-                      : "text-slate-300"
-                  } ${softskillData.hoverColorClass} `}
-                  variant="outline"
-                >
-                  {softskillData.label}
-                </Badge>
-              </div>
-            ))}
+            {softskillsData
+              .sort((a, b) => a.label.localeCompare(b.label))
+              .map((softskillData) => (
+                <div key={softskillData.label}>
+                  <Badge
+                    className={`${
+                      hover.includes(softskillData.label)
+                        ? "border-[#CFBDEC]/50 text-[#6e5494] shadow-[0px_0px_20px_0px_rgba(116,_47,_246,_0.1)]"
+                        : "text-slate-300"
+                    } "hover:border-[#CFBDEC]/50 hover:text-[#6e5494] hover:shadow-[0px_0px_20px_0px_rgba(116,_47,_246,_0.1)]`}
+                    variant="outline"
+                  >
+                    {softskillData.label}
+                  </Badge>
+                </div>
+              ))}
           </div>
         </div>
 

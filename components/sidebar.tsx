@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import {
-  CaretRightIcon,
+  DotIcon,
   EnvelopeClosedIcon,
   GitHubLogoIcon,
   HeartFilledIcon,
@@ -76,9 +76,10 @@ export const Sidebar = () => {
               <span className="text-xs text-slate-300">Moi</span>
               <ul className="my-2">
                 {sidebarMeItems.map((item) => (
-                  <li className="flex flex-row items-center" key={item.href}>
-                    <CaretRightIcon className="h-4 w-4" />
-                    <a href={item.href}>{item.label}</a>
+                  <li key={item.href}>
+                    <a className="flex flex-row items-center" href={item.href}>
+                      <DotIcon className="h-4 w-4" /> {item.label}
+                    </a>
                   </li>
                 ))}
               </ul>
@@ -88,7 +89,7 @@ export const Sidebar = () => {
           <div className="mb-6 flex h-full flex-wrap content-end justify-end">
             <div className="flex  items-center justify-end ">
               Site codé avec
-              <div className="p-2 hover:animate-pulse hover:text-red-400">
+              <div className="p-2 hover:animate-pulse-fast hover:text-red-400">
                 <HeartFilledIcon className="h-4 w-4" />
               </div>
             </div>
