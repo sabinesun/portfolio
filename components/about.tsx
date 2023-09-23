@@ -12,9 +12,11 @@ export const About = () => {
           Cloud Computing. Je vise à devenir une développeuse fullstack avec une
           préférence pour le frontend à la sortie de l'école.
         </div>
-        <Button className="mb-2" variant="outline">
-          <UploadIcon className=" mr-2 h-4 w-4  " /> Télécharger le CV
-        </Button>
+        <div>
+          <Button className="mb-2" variant="outline">
+            <UploadIcon className="mr-2 h-4 w-4" /> Télécharger le CV
+          </Button>
+        </div>
       </div>
     </div>
   );

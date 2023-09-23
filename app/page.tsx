@@ -9,7 +9,7 @@ import { Sidebar } from "@/components/sidebar";
 const Home = () => {
   return (
     <main className="text-justify text-zinc-600">
-      <div className=" sm:hidden">
+      <div className="sm:hidden">
         <Navbar />
       </div>
       <div className="hidden sm:flex">

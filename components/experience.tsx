@@ -29,7 +29,10 @@ export const Experience = () => {
   }
 
   return (
-    <div className="m-6 flex-col justify-center sm:h-screen " id="experience">
+    <div
+      className="m-6 flex flex-col pt-20 sm:h-screen sm:justify-center "
+      id="experience"
+    >
       <div className="flex flex-row flex-wrap items-end justify-between py-4">
         <div className=" text-5xl font-bold text-black">Timeline</div>
       </div>

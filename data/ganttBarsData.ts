@@ -54,7 +54,7 @@ export const ganttBarsData = [
     logo: "/sopra-steria-logo.jpeg",
     rows: 4,
     softskills: ["Travail d'équipe", "Gestion de projet", "Esprit critique"],
-    subtitle: " Projet d'école en partenariat avec Sopra Steria",
+    subtitle: " Projet d'école avec Sopra Steria",
     title: " Battle Judge",
   },
 
