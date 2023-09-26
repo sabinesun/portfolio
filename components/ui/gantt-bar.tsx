@@ -3,11 +3,14 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card";
+import { Typography } from "@/components/ui/typography";
 import Image from "next/image";
+import Link from "next/link";
 import { type Dispatch, type SetStateAction } from "react";
 
 export type GanttBarProps = {
   readonly data: {
+    companyLink: string;
     content: string[];
     dateBegin: Date;
     dateEnd: Date;
@@ -23,6 +26,7 @@ export type GanttBarProps = {
 export const GanttBar = ({ data, setHover }: GanttBarProps) => {
   const firstDate = new Date(2_018, 9);
   const {
+    companyLink,
     dateEnd,
     dateBegin,
     rows,
@@ -73,7 +77,7 @@ export const GanttBar = ({ data, setHover }: GanttBarProps) => {
         <div>
           <div className="flex justify-between">
             <div>
-              <div className="text-base">
+              <Typography className="text-base" variant="h4">
                 {title +
                   ": " +
                   dateBegin.toLocaleDateString("fr", {
@@ -85,16 +89,18 @@ export const GanttBar = ({ data, setHover }: GanttBarProps) => {
                     month: "short",
                     year: "numeric",
                   })}
-              </div>
+              </Typography>
 
-              <div className=" text-xs text-slate-400">{subtitle}</div>
+              <Typography variant="muted">{subtitle}</Typography>
             </div>
-            <Image
-              alt="Picture of the author"
-              height={40}
-              src={logo}
-              width={40}
-            />
+            <Link href={companyLink} target="_blank">
+              <Image
+                alt="Picture of the author"
+                height={40}
+                src={logo}
+                width={40}
+              />
+            </Link>
           </div>
 
           <ul className="pl-6 pt-6">

@@ -1,5 +1,6 @@
 export const ganttBarsData = [
   {
+    companyLink: "https://www.esilv.fr/",
     content: [
       "Formation initiale généraliste avec les bases scientifiques",
       "Projet scientifique et techniques",
@@ -25,9 +26,10 @@ export const ganttBarsData = [
   },
 
   {
+    companyLink: "https://www.esilv.fr/",
     content: [
-      "Sujet du projet : Construction d'un robot permettant de faire un cocktail à distance à l'aide d'un gant en équipe de six",
-      "Missions : Élaboration d'un état de l'art, Construction d'un cahier des charges, Analyse Structurelle",
+      "Sujet du projet : Construction d'un robot, en équipe de six, permettant de faire un cocktail à distance à l'aide d'un gant",
+      "Missions : Élaboration d'un état de l'art, Construction d'un cahier des charges, Analyse Structurelle, Mis en place et construction du robot",
     ],
     dateBegin: new Date(2_020, 9),
     dateEnd: new Date(2_021, 6),
@@ -39,6 +41,7 @@ export const ganttBarsData = [
     title: "Cocktail Mix",
   },
   {
+    companyLink: "https://www.soprasteria.fr/",
     content: [
       " Sujet du projet : Mettre à disposition des collaborateurs\n" +
         "                    SopraSteria une application permettant de gérer des battles\n" +
@@ -59,11 +62,10 @@ export const ganttBarsData = [
   },
 
   {
+    companyLink: "https://dedouze.com/",
     content: [
-      " Missions techniques : Gestion de base de donnée des clients\n" +
-        "                    \\& des commandes, Automatisation du Google sheet",
-      " Missions manuelles : Fabrication \\& envoie de posters,\n" +
-        "                    Gestion de mails",
+      " Missions : Développement d'une boutique de poster en ligne",
+      " Gestion de base de donnée des clients & des commandes, Automatisation du Google sheet Fabrication, envoie de posters, Gestion de mails",
     ],
     dateBegin: new Date(2_021, 6),
     dateEnd: new Date(2_021, 9),
@@ -75,7 +77,11 @@ export const ganttBarsData = [
     title: "Dedouze",
   },
   {
-    content: ["  Missions techniques : Développement de composant front"],
+    companyLink: "https://dcbrain.com/",
+    content: [
+      "Missions : Développement et amélioration du logiciel SaaS",
+      "Développement de composant front, Correction de bug, Méthodologie agile, Travail en équipe produit ",
+    ],
     dateBegin: new Date(2_023, 4),
     dateEnd: new Date(2_023, 9),
     hardskills: ["Typescript", "CSS", "Gitlab"],

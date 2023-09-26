@@ -1,6 +1,7 @@
 "use client";
 import { ExperienceDesktop } from "@/components/experienceDesktop";
 import { ExperienceMobile } from "@/components/experienceMobile";
+import { Typography } from "@/components/ui/typography";
 import { ganttBarsData } from "@/data/ganttBarsData";
 import { useState } from "react";
 
@@ -29,16 +30,13 @@ export const Experience = () => {
   }
 
   return (
-    <div
+    <section
       className="m-6 flex flex-col pt-20 sm:h-screen sm:justify-center "
       id="experience"
     >
-      <div className="flex flex-row flex-wrap items-end justify-between py-4">
-        <div className=" text-5xl font-bold text-black">Timeline</div>
-      </div>
-
+      <Typography variant="h2">Timeline</Typography>
       <ExperienceDesktop hover={hover} setHover={setHover} years={years} />
       <ExperienceMobile />
-    </div>
+    </section>
   );
 };

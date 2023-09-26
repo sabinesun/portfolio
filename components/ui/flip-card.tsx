@@ -2,7 +2,9 @@
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { Typography } from "@/components/ui/typography";
 import { GitHubLogoIcon, Link2Icon } from "@radix-ui/react-icons";
+import Link from "next/link";
 import { useState } from "react";
 import { BiTrafficCone } from "react-icons/bi";
 
@@ -40,12 +42,16 @@ export const FlipCard = ({ data }: FlipCardProps) => {
           </div>
           <div className="">
             <div className="flex">
-              <div className="flex">{title}</div>
-              <div className="flex px-2 pt-1.5 text-xs text-slate-400">
+              <Typography variant="h4">{title}</Typography>
+              <Typography className="px-2 pt-1.5 sm:text-xs" variant="muted">
                 {inProgress && "(En cours...)"}
-              </div>
+              </Typography>
             </div>
-            <div className="flex text-xs text-slate-400">{subtitle}</div>
+
+            <Typography className="sm:text-xs" variant="muted">
+              {subtitle}
+            </Typography>
+
             <div className="flex gap-2 pt-2">
               {hardskills.map((hardskill) => (
                 <Badge key={hardskill} variant="secondary">
@@ -59,26 +65,18 @@ export const FlipCard = ({ data }: FlipCardProps) => {
         <div className="card-face card-face-back absolute flex h-full w-full flex-wrap content-end rounded-2xl border shadow hover:border-[#CFBDEC]/50  hover:shadow-[0px_0px_20px_0px_rgba(116,_47,_246,_0.1)]">
           <div className=" justify-start p-5  ">
             <div className="flex flex-col ">
-              <a
-                className="h-6"
-                href={github}
-                onClick={(event) => event.stopPropagation()}
-              >
+              <Link className="h-6" href={github} target="_blank">
                 <Button className="p-0" size="default" variant="link">
                   <GitHubLogoIcon className="mr-2 h-4 w-4" />
                   {title}
                 </Button>
-              </a>
-              <a
-                className="h-6"
-                href={link}
-                onClick={(event) => event.stopPropagation()}
-              >
+              </Link>
+              <Link className="h-6" href={link} target="_blank">
                 <Button className="p-0" size="default" variant="link">
                   <Link2Icon className="mr-2 h-4 w-4" />
                   {link.replace("https://", "").replace("github.com/", "")}
                 </Button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

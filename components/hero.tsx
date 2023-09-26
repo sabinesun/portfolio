@@ -1,21 +1,24 @@
-import { Button } from "@/components/ui/button";
-import { ChevronDownIcon } from "@radix-ui/react-icons";
+import { Typography } from "@/components/ui/typography";
 
 export const Hero = () => {
   return (
-    <div className="flex h-screen flex-col p-6 " id="hero">
+    <section className="flex h-screen flex-col p-6 " id="hero">
       <div className=" flex w-full flex-1 flex-col flex-wrap justify-center">
-        <div className="py-4 text-9xl font-black text-black">Hey !</div>
-        <div> Software engineer en devenir, mais surtout front developer. </div>
-        <div> À la recherche d'un stage de fin d'étude ! </div>
+        <Typography variant="h1">Hey !</Typography>
+        <p>Bienvenue sur mon portfolio !</p>
+        <div className="flex flex-wrap items-center">
+          Découvre qui suis-je
+          <a className="px-2" href="#about">
+            &#128071;
+          </a>
+        </div>
       </div>
-      <div className="flex animate-bounce flex-wrap justify-center ">
-        <a href="#about">
-          <Button className="rounded-2xl" size="icon" variant="ghost">
-            <ChevronDownIcon className="h-8 w-8" />
-          </Button>
+      <div className="flex flex-wrap justify-center ">
+        <a className="flex animate-bounce items-center" href="#about">
+          <p className="text-2xl"> &#x1f5b1; </p>
+          <p className="text-sm">scroll</p>
         </a>
       </div>
-    </div>
+    </section>
   );
 };

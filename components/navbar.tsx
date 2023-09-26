@@ -7,6 +7,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { Typography } from "@/components/ui/typography";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 
@@ -16,7 +17,7 @@ export const Navbar = () => {
   sidebarMeItems.push({ href: "#experience", label: "Mon parcours" });
   sidebarMeItems.push({ href: "#project", label: "Mes projets" });
   return (
-    <div className="fixed left-0 top-0 w-full bg-white/70 backdrop-blur-md">
+    <nav className="fixed left-0 top-0 z-40 w-full bg-white/70 backdrop-blur-md sm:hidden">
       <div className="flex items-center justify-between px-5 pt-4">
         <a href="#hero">
           <div className=" flex flex-grow items-center ">
@@ -29,12 +30,10 @@ export const Navbar = () => {
               width={44}
             />
             <div className="flex flex-col p-2">
-              <span className="flex flex-wrap content-end  pb-1 ">
+              <span className="flex flex-wrap content-end pb-1 ">
                 Sabine SUN
               </span>
-              <span className="text-xs text-slate-400  ">
-                Software engineer
-              </span>
+              <Typography variant="muted">Software engineer</Typography>
             </div>
           </div>
         </a>
@@ -67,6 +66,6 @@ export const Navbar = () => {
           </Sheet>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };

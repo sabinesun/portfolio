@@ -1,4 +1,6 @@
 import "./globals.css";
+import { Navbar } from "@/components/navbar";
+import { Sidebar } from "@/components/sidebar";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -15,7 +17,7 @@ export default function RootLayout({
   readonly children: React.ReactNode;
 }) {
   return (
-    <html className="scroll-smooth" lang="en">
+    <html className="scroll-smooth text-justify text-zinc-600" lang="en">
       <body className={inter.className}>{children}</body>
     </html>
   );

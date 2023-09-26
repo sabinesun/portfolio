@@ -6,6 +6,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { Typography } from "@/components/ui/typography";
 import { ganttBarsData } from "@/data/ganttBarsData";
 import { logosData } from "@/data/logosData";
 import { softskillsData } from "@/data/softskillsData";
@@ -43,7 +44,7 @@ export const ExperienceDesktop = ({
       <div className="flex flex-row">
         <div className="grid grid-rows-4 gap-y-2 whitespace-nowrap pb-2 pr-4">
           <div className=""> &nbsp; </div>
-          <div className="flex flex-wrap content-center"> Education </div>
+          <div className="flex flex-wrap content-center"> Formation </div>
           <div className="flex flex-wrap content-center"> Professionel </div>
           <div className="flex flex-wrap content-center"> Projet d'école </div>
         </div>
@@ -73,9 +74,9 @@ export const ExperienceDesktop = ({
 
       <div className="mt-10 flex flex-row flex-wrap justify-end">
         <div className="flex w-2/5 flex-col">
-          <div className="flex justify-center py-4 text-xl font-bold ">
+          <Typography className="flex justify-center" variant="h3">
             Softskills
-          </div>
+          </Typography>
 
           <div className="flex flex-wrap gap-2">
             {softskillsData
@@ -98,9 +99,9 @@ export const ExperienceDesktop = ({
         </div>
 
         <div className="flex w-2/5 flex-col">
-          <div className="flex justify-center py-4 text-xl font-bold ">
+          <Typography className="flex justify-center" variant="h3">
             HardSkills
-          </div>
+          </Typography>
 
           <div>
             {logosData.map((logoData) => (

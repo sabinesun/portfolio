@@ -11,8 +11,10 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
+import { Typography } from "@/components/ui/typography";
 import { ganttBarsData } from "@/data/ganttBarsData";
 import Image from "next/image";
+import Link from "next/link";
 
 export const ExperienceMobile = () => {
   const sortedGanttBarsData = ganttBarsData.slice().sort((a, b) => {
@@ -28,15 +30,21 @@ export const ExperienceMobile = () => {
           <Accordion collapsible type="single">
             <AccordionItem value="item-1">
               <AccordionTrigger>
-                <Image
-                  alt="Picture of the author"
-                  height={36}
-                  src={barData.logo}
-                  width={36}
-                />
+                <Link
+                  className="w-11"
+                  href={barData.companyLink}
+                  target="_blank"
+                >
+                  <Image
+                    alt="Picture of the author"
+                    height={36}
+                    src={barData.logo}
+                    width={36}
+                  />
+                </Link>
                 <div className="flex w-full flex-col px-2">
                   <div className="flex flex-wrap items-center justify-between">
-                    <div className="text-md font-bold">{barData.title}</div>
+                    <Typography variant="h4">{barData.title}</Typography>
                     <div className="text-xs ">
                       {barData.dateBegin.toLocaleDateString("fr", {
                         month: "short",
@@ -49,9 +57,7 @@ export const ExperienceMobile = () => {
                         })}
                     </div>
                   </div>
-                  <div className="flex text-xs text-slate-400">
-                    {barData.subtitle}
-                  </div>
+                  <Typography variant="muted">{barData.subtitle}</Typography>
                 </div>
               </AccordionTrigger>
               <AccordionContent>
