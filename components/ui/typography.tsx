@@ -5,8 +5,8 @@ import * as React from "react";
 const typographyVariants = cva("text-justify text-zinc-600", {
   variants: {
     variant: {
-      h1: "text-9xl font-black text-black my-5",
-      h2: "text-5xl font-bold text-black my-4",
+      h1: "text-9xl font-black text-black my-5 font-serif",
+      h2: "text-5xl font-bold text-black my-4 font-serif",
       h3: "text-xl font-semibold text-black my-3",
       h4: "text-l text-black my",
       list: "my-6 ml-3 list-disc",

@@ -31,7 +31,7 @@ export const Experience = () => {
 
   return (
     <section
-      className="m-6 flex flex-col overflow-hidden pt-20 sm:h-screen sm:justify-center "
+      className="m-6 flex flex-col overflow-hidden pt-20 sm:min-h-screen sm:justify-center "
       id="experience"
     >
       <Typography variant="h2">Timeline</Typography>

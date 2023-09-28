@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const About = () => {
   return (
-    <section className="flex overflow-hidden pt-20 sm:h-screen" id="about">
+    <section className="flex overflow-hidden pt-20 sm:min-h-screen" id="about">
       <div className="m-6 flex flex-col flex-wrap justify-center">
         <Typography variant="h2"> À propos </Typography>
         <div className="sm:flex sm:flex-row-reverse  ">
@@ -39,10 +39,7 @@ export const About = () => {
               dans le monde du développement web !
             </p>
             <div className="mt-6 flex w-full justify-center">
-              <Link
-                href="https://www.notion.so/516d5e1de36943719c169c1ed71ec3c9?pvs=4"
-                target="_blank"
-              >
+              <Link href="/CV.pdf" target="_blank">
                 <Button className="mb-2" variant="outline">
                   <Link2Icon className="mr-2 h-4 w-4" /> Voir mon CV
                 </Button>
