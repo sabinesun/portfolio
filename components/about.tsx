@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
-import { DownloadIcon, Link2Icon } from "@radix-ui/react-icons";
+import { Link2Icon } from "@radix-ui/react-icons";
 import Link from "next/link";
 
 export const About = () => {
   return (
-    <section className="flex pt-20 sm:h-screen" id="about">
+    <section className="flex overflow-hidden pt-20 sm:h-screen" id="about">
       <div className="m-6 flex flex-col flex-wrap justify-center">
         <Typography variant="h2"> À propos </Typography>
         <div className="sm:flex sm:flex-row-reverse  ">

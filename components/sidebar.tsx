@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
 import {
-  DotIcon,
   EnvelopeClosedIcon,
   GitHubLogoIcon,
-  HeartFilledIcon,
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
 import Image from "next/image";

@@ -29,7 +29,7 @@ export const FlipCard = ({ data }: FlipCardProps) => {
   const { github, hardskills, inProgress, link, subtitle, title } = data;
 
   return (
-    <div className="scene inline-block h-48 w-80 cursor-pointer ">
+    <div className="scene inline-block h-48 w-80 cursor-pointer  ">
       <div
         className={`card relative h-full w-full ${
           isFlipped ? "is-flipped" : ""
