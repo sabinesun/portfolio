@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-unassigned-import,canonical/filename-match-exported
 import "./globals.css";
 import { Inter } from "next/font/google";
 
