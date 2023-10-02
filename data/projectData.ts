@@ -1,26 +1,30 @@
 export const projectData = [
   {
+    backend: [],
+    description:
+      " Pour me préparer à un stage à venir utilisant le Canvas, j'ai codé\n" +
+      "            un Snake Game en HTML5 Canvas afin d'en apprendre plus étant donné\n" +
+      "            que je ne connaissais pas du tout cette technologie auparavant.",
+    frontend: ["React", "Canva", "Typescript"],
+    github: "https://github.com/sabinesun/snake-game",
+    inProgress: false,
+    link: "",
+    subtitle: "Ne vous mordez pas la queue et grandissez",
+    title: "Snake Game",
+    video: "snakeGame.mp4",
+    year: 2_023,
+  },
+  {
+    backend: ["NestJs", "Node.js", "PostgreSQL"],
+    description:
+      "Afin d'aider mes parents qui tiennent un restaurant, nous avons décidé avec mon frère de coder un site afin de permettre les clients de commander en avance. ",
+    frontend: ["React", "Tailwind", "Typescript"],
     github: "https://github.com/bastiensun/tmp",
-    hardskills: ["React", "Typescript", "Tailwind"],
     inProgress: true,
     link: "https://yifan.vercel.app",
     subtitle: "Commandez en avance pour gagner du temps !",
     title: "Délice de Yifan",
-  },
-  {
-    github: "https://github.com/sabinesun/snake-game",
-    hardskills: ["React", "Canva", "Typescript"],
-    inProgress: true,
-    link: "no link",
-    subtitle: "Ne vous mordez pas la queue et grandissez",
-    title: "Snake Game",
-  },
-  {
-    github: "no link",
-    hardskills: ["React", "Typescript", "API"],
-    inProgress: true,
-    link: "no link",
-    subtitle: "Retrouve tes villageois préférés !",
-    title: "Animal Crossing list",
+    video: "",
+    year: 2_023,
   },
 ];
