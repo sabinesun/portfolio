@@ -15,7 +15,7 @@ export const About = () => {
             loop
             muted
             playsInline
-            src="MemojiVideo.mov"
+            src="memoji-video.mov"
           />
           <div className="my-6 flex max-w-3xl flex-col justify-center lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl">
             <p>

@@ -16,7 +16,7 @@ export default function RootLayout({
   readonly children: React.ReactNode;
 }) {
   return (
-    <html className="scroll-smooth text-justify text-zinc-600" lang="en">
+    <html className="scroll-smooth text-zinc-600" lang="en">
       <body className={inter.className}>{children}</body>
     </html>
   );

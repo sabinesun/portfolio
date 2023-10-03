@@ -26,7 +26,7 @@ export const Navbar = () => {
               className="h-11 w-11"
               height={44}
               priority
-              src="/Memoji.png"
+              src="/memoji.png"
               width={44}
             />
             <div className="flex flex-col p-2">

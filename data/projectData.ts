@@ -11,7 +11,7 @@ export const projectData = [
     link: "",
     subtitle: "Ne vous mordez pas la queue et grandissez",
     title: "Snake Game",
-    video: "snakeGame.mp4",
+    video: "snake-game.mp4",
     year: 2_023,
   },
   {

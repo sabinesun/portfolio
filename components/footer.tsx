@@ -59,7 +59,7 @@ export const Footer = () => {
           alt="Picture of the author"
           className="mx-4"
           height={180}
-          src="/MemojiComputer.png"
+          src="/memoji-computer.png"
           width={180}
         />
       </div>

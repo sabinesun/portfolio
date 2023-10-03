@@ -1,6 +1,6 @@
 "use client";
-import { ExperienceDesktop } from "@/components/experienceDesktop";
-import { ExperienceMobile } from "@/components/experienceMobile";
+import { ExperienceDesktop } from "@/components/experience-desktop";
+import { ExperienceMobile } from "@/components/experience-mobile";
 import { Typography } from "@/components/ui/typography";
 import { ganttBarsData } from "@/data/ganttBarsData";
 import { useState } from "react";
