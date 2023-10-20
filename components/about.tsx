@@ -39,7 +39,7 @@ export const About = () => {
               dans le monde du développement web !
             </p>
             <div className="mt-6 flex w-full justify-center">
-              <Link href="/CV.pdf" target="_blank">
+              <Link href="https://standardresume.co/r/sabine" target="_blank">
                 <Button className="mb-2" variant="outline">
                   <Link2Icon className="mr-2 h-4 w-4" /> Voir mon CV
                 </Button>
