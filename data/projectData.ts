@@ -27,4 +27,17 @@ export const projectData = [
     video: "",
     year: 2_023,
   },
+  {
+    backend: [],
+    description:
+      "Afin d'apprendre en profondeur l'utilisation d'API tout en explorant l'univers des Pokémon, j'ai décidé de coder ce Pokedex.",
+    frontend: ["React", "Tailwind", "Typescript", "Next.js"],
+    github: "https://github.com/sabinesun/pokemon",
+    inProgress: true,
+    link: "",
+    subtitle: "Retrouve tes pokemons préférés !",
+    title: "Pokédex",
+    video: "",
+    year: 2_023,
+  },
 ];
