@@ -25,7 +25,7 @@ export const projectData = [
     link: "http://pokemon.sabinesun.com/",
     subtitle: "Retrouve tes pokemons préférés !",
     title: "Pokédex",
-    video: "",
+    video: "pokedex.mov",
     year: 2_023,
   },
   {
