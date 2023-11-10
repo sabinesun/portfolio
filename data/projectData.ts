@@ -14,6 +14,20 @@ export const projectData = [
     video: "snake-game.mp4",
     year: 2_023,
   },
+
+  {
+    backend: [],
+    description:
+      "Afin d'apprendre en profondeur l'utilisation d'API tout en explorant l'univers des Pokémon, j'ai décidé de coder ce Pokedex.",
+    frontend: ["React", "Tailwind", "Typescript", "Next.js"],
+    github: "https://github.com/sabinesun/pokemon",
+    inProgress: false,
+    link: "http://pokemon.sabinesun.com/",
+    subtitle: "Retrouve tes pokemons préférés !",
+    title: "Pokédex",
+    video: "",
+    year: 2_023,
+  },
   {
     backend: ["NestJs", "Node.js", "PostgreSQL"],
     description:
@@ -24,19 +38,6 @@ export const projectData = [
     link: "https://yifan.vercel.app",
     subtitle: "Commandez en avance pour gagner du temps !",
     title: "Délice de Yifan",
-    video: "",
-    year: 2_023,
-  },
-  {
-    backend: [],
-    description:
-      "Afin d'apprendre en profondeur l'utilisation d'API tout en explorant l'univers des Pokémon, j'ai décidé de coder ce Pokedex.",
-    frontend: ["React", "Tailwind", "Typescript", "Next.js"],
-    github: "https://github.com/sabinesun/pokemon",
-    inProgress: true,
-    link: "",
-    subtitle: "Retrouve tes pokemons préférés !",
-    title: "Pokédex",
     video: "",
     year: 2_023,
   },
