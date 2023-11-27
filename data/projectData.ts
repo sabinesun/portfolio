@@ -29,6 +29,19 @@ export const projectData = [
     year: 2_023,
   },
   {
+    backend: ["MySQL", "Node.js", "Drizzle"],
+    description:
+      "Ajoutez des produits au panier, passez commande, et la base de données est mise à jour automatiquement. Une super façon pour moi de m'entraîner en développement fullstack !",
+    frontend: ["React", "Tailwind", "Typescript", "Next.js"],
+    github: "https://github.com/sabinesun/shopping",
+    inProgress: false,
+    link: "",
+    subtitle: "Découvrez, ajoutez et achetez vos indispensables !",
+    title: "Shopping",
+    video: "shopping.mov",
+    year: 2_023,
+  },
+  {
     backend: ["NestJs", "Node.js", "PostgreSQL"],
     description:
       "Afin d'aider mes parents qui tiennent un restaurant, nous avons décidé avec mon frère de coder un site afin de permettre les clients de commander en avance. ",
