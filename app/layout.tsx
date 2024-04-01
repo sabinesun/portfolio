@@ -2,6 +2,7 @@
 import "./globals.css";
 import Navbar from "../components/navbar/navbar";
 import Footer from "@/components/footer/footer";
+import { ThemeProvider } from "@/components/theme/theme-provider";
 import { type Metadata } from "next";
 import { Inter } from "next/font/google";
 
@@ -18,13 +19,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`${inter.className} grid min-h-screen grid-rows-[auto_1fr_auto] p-10`}
+        className={`${inter.className} grid min-h-screen grid-rows-[auto_1fr_auto]`}
       >
-        <Navbar />
-        {children}
-        <Footer />
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          disableTransitionOnChange
+          enableSystem
+        >
+          <Navbar />
+          {children}
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );
