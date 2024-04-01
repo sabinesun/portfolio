@@ -1,5 +1,7 @@
 // eslint-disable-next-line canonical/filename-match-exported,import/no-unassigned-import
 import "./globals.css";
+import Navbar from "../components/navbar/navbar";
+import Footer from "@/components/footer/footer";
 import { type Metadata } from "next";
 import { Inter } from "next/font/google";
 
@@ -17,7 +19,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${inter.className} grid min-h-screen grid-rows-[auto_1fr_auto] p-10`}
+      >
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

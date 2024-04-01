@@ -1,7 +1,9 @@
 {
   "extends": ["next/core-web-vitals", "canonical/auto"],
   "rules": {
-    "react/react-in-jsx-scope": "off", "prettier/prettier": "off", "react/forbid-component-props": "off"
+    "react/react-in-jsx-scope": "off",
+    "prettier/prettier": "off",
+    "react/forbid-component-props": "off"
   }
 }
 
