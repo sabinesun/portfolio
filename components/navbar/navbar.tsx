@@ -7,12 +7,12 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <nav className="m-10 flex justify-center">
-      <div className="flex w-full items-center justify-between md:max-w-2xl">
+      <div className="flex w-full items-center justify-between md:max-w-xl">
         <div className="flex flex-col">
           <h1 className="text-lg font-bold">Sabine Sun</h1>
-          <h2 className="text-xs font-light leading-3 text-muted-foreground">
-            Développeuse front-end
-          </h2>
+          <p className="text-xs font-light leading-3 text-muted-foreground">
+            Développeuse Front-End
+          </p>
         </div>
         <div className="flex gap-0.5">
           <Button asChild className="w-9 p-0" variant="ghost">

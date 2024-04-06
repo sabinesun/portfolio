@@ -1,0 +1,53 @@
+export const workData = [
+  {
+    company: "Canal +",
+    companyLink: "https://www.canalplusgroup.com/fr",
+    dateBegin: new Date(2_024, 3),
+    dateEnd: new Date(2_024, 8),
+    description: " test ",
+    hardskills: ["Typescript", "Sass", "React"],
+    jobTitle: " Stage | Développeuse Front-End ",
+    logo: "/CanalPlus.png",
+    softskills: [
+      "Méthodologie Agile",
+      "Rigoureuse",
+      "Autonome",
+      "Curieuse",
+      "Adaptabilité",
+    ],
+  },
+  {
+    company: "DCbrain",
+    companyLink: "https://dcbrain.com/",
+    dateBegin: new Date(2_024, 4),
+    dateEnd: new Date(2_024, 9),
+    description: [
+      "Missions : Développement et amélioration du logiciel SaaS",
+      "Développement de composant front, Correction de bug, Méthodologie agile, Travail en équipe produit ",
+    ],
+    hardskills: ["Typescript", "CSS", "Gitlab"],
+    jobTitle: " Stage | Développeuse Front-End",
+    logo: "/dcbrain-logo.png",
+    softskills: [
+      "Méthodologie Agile",
+      "Autonome",
+      "Esprit critique",
+      "Organisation",
+      "Adaptabilité",
+    ],
+  },
+  {
+    company: "Dedouze",
+    companyLink: "https://dedouze.com/",
+    dateBegin: new Date(2_021, 6),
+    dateEnd: new Date(2_021, 9),
+    description: [
+      " Missions : Développement d'une boutique de poster en ligne",
+      " Gestion de base de donnée des clients & des commandes, Automatisation du Google sheet Fabrication, envoie de posters, Gestion de mails",
+    ],
+    hardskills: [],
+    jobTitle: " Stage | Développeuse Front-End",
+    logo: "/dedouze-logo.jpeg",
+    softskills: ["Autonome", "Organisation", "Adaptabilité"],
+  },
+];
