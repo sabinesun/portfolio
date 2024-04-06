@@ -44,7 +44,9 @@ const AccordionWork = () => {
               </div>
             </AccordionTrigger>
             <AccordionContent className="pl-16">
-              {item.description}
+              {item.description.map((bullet) => (
+                <li key={bullet}> {bullet}</li>
+              ))}
             </AccordionContent>
           </AccordionItem>
         );

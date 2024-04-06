@@ -4,7 +4,11 @@ export const workData = [
     companyLink: "https://www.canalplusgroup.com/fr",
     dateBegin: new Date(2_024, 3),
     dateEnd: new Date(2_024, 8),
-    description: " test ",
+    description: [
+      "Travail en équipe sur la réalisation de nouvelles features, amélioration de features existantes, et amélioration continue de la qualité du code",
+      "Participation aux différentes phases de test (unitaires, fonctionnels, intégration, acceptance, automatisés)",
+      "Maintien de la documentation technique",
+    ],
     hardskills: ["Typescript", "Sass", "React"],
     jobTitle: " Stage | Développeuse Front-End ",
     logo: "/CanalPlus.png",
@@ -22,8 +26,8 @@ export const workData = [
     dateBegin: new Date(2_024, 4),
     dateEnd: new Date(2_024, 9),
     description: [
-      "Missions : Développement et amélioration du logiciel SaaS",
-      "Développement de composant front, Correction de bug, Méthodologie agile, Travail en équipe produit ",
+      "Travail en équipe sur le développement et l'amélioration du logiciel SaaS",
+      "Analyse, et estimation des User Stories, retours de faisabilité avec les Products Owner et Designers ",
     ],
     hardskills: ["Typescript", "CSS", "Gitlab"],
     jobTitle: " Stage | Développeuse Front-End",
@@ -42,7 +46,7 @@ export const workData = [
     dateBegin: new Date(2_021, 6),
     dateEnd: new Date(2_021, 9),
     description: [
-      " Missions : Développement d'une boutique de poster en ligne",
+      " Développement d'une boutique de poster en ligne",
       " Gestion de base de donnée des clients & des commandes, Automatisation du Google sheet Fabrication, envoie de posters, Gestion de mails",
     ],
     hardskills: [],
