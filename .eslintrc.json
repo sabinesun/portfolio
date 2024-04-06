@@ -3,7 +3,8 @@
   "rules": {
     "react/react-in-jsx-scope": "off",
     "prettier/prettier": "off",
-    "react/forbid-component-props": "off"
+    "react/forbid-component-props": "off",
+    "canonical/filename-match-exported": "off"
   }
 }
 

@@ -1,4 +1,3 @@
-// eslint-disable-next-line canonical/filename-match-exported
 import { Button } from "@/components/ui/button";
 import { projectData } from "@/data/project-data";
 import Image from "next/image";

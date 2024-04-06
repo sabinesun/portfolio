@@ -1,4 +1,3 @@
-// eslint-disable-next-line canonical/filename-match-exported
 import { ModeToggle } from "@/components/theme/mode-toggle";
 import { Button } from "@/components/ui/button";
 import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";

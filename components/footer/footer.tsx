@@ -1,4 +1,3 @@
-// eslint-disable-next-line canonical/filename-match-exported
 import { HeartIcon } from "@radix-ui/react-icons";
 
 const Footer = () => {

@@ -11,7 +11,7 @@ export const workData = [
     ],
     hardskills: ["Typescript", "Sass", "React"],
     jobTitle: " Stage | Développeuse Front-End ",
-    logo: "/CanalPlus.png",
+    logo: "/logo/canal-plus.png",
     softskills: [
       "Méthodologie Agile",
       "Rigoureuse",
@@ -31,7 +31,7 @@ export const workData = [
     ],
     hardskills: ["Typescript", "CSS", "Gitlab"],
     jobTitle: " Stage | Développeuse Front-End",
-    logo: "/dcbrain-logo.png",
+    logo: "/logo/dcbrain.png",
     softskills: [
       "Méthodologie Agile",
       "Autonome",
@@ -51,7 +51,7 @@ export const workData = [
     ],
     hardskills: [],
     jobTitle: " Stage | Développeuse Front-End",
-    logo: "/dedouze-logo.jpeg",
+    logo: "/logo/dedouze.jpeg",
     softskills: ["Autonome", "Organisation", "Adaptabilité"],
   },
 ];
