@@ -10,6 +10,30 @@ export const projectData = [
     logo: "/logo/delice-de-yifan.png",
     subtitle: "Site de click & collect",
     title: "Délice de Yifan",
+    year: 2_024,
+  },
+  {
+    description:
+      "Dans le context d'un projet d'école en collaboration avec Sopra Steria, j'ai eu l'opportunité de travailler dans une équipe de 5.Cette application web était destinée à créer une plateforme de bataille de code au sein de Sopra Steria. L'objectif était de créer une plateforme où le but est de relever des défis afin de gagner des points et remporter une bataille.",
+    frontend: ["React", "CSS", "Typescript", "Vitest", "Playwright"],
+    github: "https://github.com/sabinesun/flixcatalog",
+    inProgress: false,
+    link: "https://github.com/sabinesun/flixcatalog",
+    logo: "/logo/popcorn.png",
+    subtitle: "Moteur de recherche de film et de série",
+    title: "Popcorn",
+    year: 2_024,
+  },
+  {
+    description:
+      "Dans le context d'un projet d'école en collaboration avec Sopra Steria, j'ai eu l'opportunité de travailler dans une équipe de 5.Cette application web était destinée à créer une plateforme de bataille de code au sein de Sopra Steria. L'objectif était de créer une plateforme où le but est de relever des défis afin de gagner des points et remporter une bataille.",
+    frontend: ["Nextjs", "React", "Tailwind", "Typescript"],
+    github: "https://github.com/sabinesun/pokemon",
+    inProgress: false,
+    link: "https://github.com/sabinesun/pokemon",
+    logo: "/logo/pokeball.png",
+    subtitle: "Retrouve les Pokémons de la première génération",
+    title: "Pokedex",
     year: 2_023,
   },
   {

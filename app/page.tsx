@@ -3,7 +3,7 @@ import ProjectInfo from "@/components/project-section/project-info";
 
 const Home = () => {
   return (
-    <main className="m-10 flex justify-center ">
+    <main className="m-10 flex flex-col items-center ">
       <div className="w-full md:max-w-xl">
         <section>
           <h2 className="mb-4 w-full font-mono text-xl">work</h2>
