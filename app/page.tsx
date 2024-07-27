@@ -1,5 +1,6 @@
-import AccordionWork from "@/components/accordion/accordion-work";
 import ProjectInfo from "@/components/project-section/project-info";
+import { ProjectSection } from "@/components/section/project-section";
+import { WorkSection } from "@/components/section/work-section";
 
 const Home = () => {
   return (
@@ -7,11 +8,11 @@ const Home = () => {
       <div className="w-full md:max-w-xl">
         <section>
           <h2 className="mb-4 w-full font-mono text-xl">work</h2>
-          <AccordionWork />
+          <WorkSection />
         </section>
         <section>
           <h2 className="mb-4 mt-10 w-full font-mono text-xl">projects</h2>
-          <ProjectInfo />
+          <ProjectSection />
         </section>
       </div>
     </main>

@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/accordion";
 import Image from "next/image";
 
-const AccordionWork = () => {
+export const WorkSection = () => {
   const { work } = resume;
 
   return (
@@ -18,7 +18,7 @@ const AccordionWork = () => {
             <AccordionTrigger>
               <div className="flex flex-1 items-center gap-4 px-4">
                 <Image
-                  alt="Canal Plus Logo"
+                  alt={`${company.logo} Logo`}
                   className="h-8 w-8"
                   height={32}
                   src={company.logo}
@@ -50,5 +50,3 @@ const AccordionWork = () => {
     </Accordion>
   );
 };
-
-export default AccordionWork;

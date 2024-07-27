@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
-const ProjectInfo = () => {
+export const ProjectSection = () => {
   const { projects } = resume;
 
   return projects.map((project) => {
@@ -40,5 +40,3 @@ const ProjectInfo = () => {
     );
   });
 };
-
-export default ProjectInfo;
