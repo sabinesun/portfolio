@@ -1,18 +1,20 @@
+import resume from "../../resume.json";
 import { Button } from "@/components/ui/button";
-import { projectData } from "@/data/project-data";
 import Image from "next/image";
 import Link from "next/link";
 
 const ProjectInfo = () => {
-  return projectData.map((project) => {
+  const { projects } = resume;
+
+  return projects.map((project) => {
     return (
       <Button
         asChild
         className=" flex h-fit items-center p-4 "
-        key={project.title}
+        key={project.name}
         variant="ghost"
       >
-        <Link href={project.link}>
+        <Link href={project.url}>
           <div className="flex flex-1 items-center gap-4">
             <Image
               alt="Canal Plus Logo"
@@ -24,12 +26,12 @@ const ProjectInfo = () => {
             <div className="flex flex-1 flex-col items-start">
               <div className="flex w-full flex-row justify-between ">
                 <h3 className="leading-6 group-hover:underline">
-                  {project.title}
+                  {project.name}
                 </h3>
                 <p className="text-xs text-muted-foreground">{project.year}</p>
               </div>
               <p className="text-xs font-light text-muted-foreground">
-                {project.subtitle}
+                {project.description}
               </p>
             </div>
           </div>

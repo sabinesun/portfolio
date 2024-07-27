@@ -1,0 +1,132 @@
+{
+  "basics": {
+    "name": "Sabine Sun",
+    "label": "Développeuse Frontend",
+    "image": "",
+    "email": "sabine.sun@hotmail.com",
+    "phone": "",
+    "url": "https://www.sabinesun.com/",
+    "summary": "Rigoureuse et autonome, je suis à la recherche d’un CDI en développement front-end à partir de octobre 2024.",
+    "location": {
+      "address": "11 avenue de Versailles",
+      "postalCode": "75016",
+      "city": "Paris",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://www.linkedin.com/in/sabinesun/"
+      },
+      {
+        "network": "Github",
+        "username": "",
+        "url": "https://github.com/sabinesun"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Canal+",
+      "location": "Puteaux, 92800",
+      "logo": "/logo/canal-plus.png",
+      "description": "",
+      "position": "Développeuse Frontend",
+      "url": "https://www.canalplus.com/",
+      "startDate": "03/24",
+      "endDate": "09/24",
+      "summary": "",
+      "highlights": [
+        "Développement et maintien de l’application de streaming myCanal",
+        "Conception d’une version majeure d’une librairie utilisée pour générer des articles",
+        "Migration des class component vers functional component,ajout des tests unitaires et fonctionnels, utilisation Storybook et documentation",
+        "Amélioration de la maintenabilité du code, modernisation UI/UX des articles d’actualité, intégration de l’accessibilité"
+      ]
+    },
+    {
+      "name": "DCbrain",
+      "location": "Paris, 75017",
+      "logo": "/logo/dcbrain.png",
+      "description": "",
+      "position": "Développeuse Frontend",
+      "url": "https://dcbrain.com/",
+      "startDate": "04/23",
+      "endDate": "09/23",
+      "summary": "",
+      "highlights": [
+        "Conception de composants en collaboration avec le designer et le product manager",
+        "Développement d’une card affichant des KPI et refonte d’une sidebar permettant une organisation hiérarchique",
+        "Analyse des besoins du client, prise en main rapide du framework maison",
+        "Modernisation du logiciel SaaS de planification de supply chain"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "ESILV",
+      "url": "https://www.esilv.fr/",
+      "area": "École supérieure d’ingénieurs Léonard-de-Vinci",
+      "studyType": "Master",
+      "startDate": "2019-09-01",
+      "endDate": "2024-08-31",
+      "courses": [
+        "Soft Skills : MBTI, Intelligence Collective,Coopération en équipe",
+        "Hard Skills : Algorithmique, Programmation orientée objet, Développement web sé-\ncurisé, C#, JavaScript, MongoDB, SQL\n"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "keywords": [
+        "React",
+        "TypeScript",
+        "Javascript",
+        "Tailwind CSS",
+        "SCSS",
+        "Storybook"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Langue natale"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "B2 au TOEFL"
+    },
+    {
+      "language": "Mandarin",
+      "fluency": "HSK4 au HSK"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Délice de Yifan",
+      "logo": "/logo/delice-de-yifan.png",
+      "description": "Projet pour le restaurant familial",
+      "highlights": [
+        "Développement d’une plateforme web visant à simplifier les commandes (click & collect) pour le restaurant familial",
+        "Collaboration en équipe en utilisant GitHub et Linear pour la gestion et le suivi du projet"
+      ],
+      "year": "2024",
+
+      "url": "https://github.com/bastiensun/yifan"
+    },
+    {
+      "name": "Sopra Steria",
+      "logo": "/logo/sopra-steria.png",
+      "description": "Projet universitaire avec Sopra Steria",
+      "highlights": [
+        "Développement d’une plateforme web pour des ”battles de code” avec gestion des utilisateurs et IHM d’administration",
+        "Collaboration en équipe de six avec Teams et GitHub pour la gestion et le suivi du projet"
+      ],
+      "year": "2023",
+      "url": "https://github.com/bastiensun/yifan"
+    }
+  ]
+}

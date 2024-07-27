@@ -1,51 +1,47 @@
+import resume from "../../resume.json";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { workData } from "@/data/work-data";
 import Image from "next/image";
 
 const AccordionWork = () => {
+  const { work } = resume;
+
   return (
     <Accordion collapsible type="single">
-      {workData.map((item) => {
+      {work.map((company) => {
         return (
-          <AccordionItem key={item.company} value={item.company}>
+          <AccordionItem key={company.name} value={company.name}>
             <AccordionTrigger>
               <div className="flex flex-1 items-center gap-4 px-4">
                 <Image
                   alt="Canal Plus Logo"
                   className="h-8 w-8"
                   height={32}
-                  src={item.logo}
+                  src={company.logo}
                   width={32}
                 />
                 <div className="flex flex-1 flex-col items-start">
                   <div className="flex w-full flex-row justify-between ">
                     <h3 className="leading-6 group-hover:underline">
-                      {item.company}
+                      {company.name}
                     </h3>
                     <p className="text-xs text-muted-foreground">
-                      {`${item.dateBegin.toLocaleDateString("fr-FR", {
-                        month: "numeric",
-                        year: "2-digit",
-                      })} - ${item.dateEnd.toLocaleDateString("fr-FR", {
-                        month: "numeric",
-                        year: "2-digit",
-                      })}`}
+                      {`${company.startDate} - ${company.endDate}`}
                     </p>
                   </div>
                   <p className="text-xs font-light text-muted-foreground">
-                    {item.jobTitle}
+                    {company.position}
                   </p>
                 </div>
               </div>
             </AccordionTrigger>
             <AccordionContent className="pl-16">
-              {item.description.map((bullet) => (
-                <li key={bullet}> {bullet}</li>
+              {company.highlights.map((highlight) => (
+                <li key={highlight}> {highlight}</li>
               ))}
             </AccordionContent>
           </AccordionItem>
