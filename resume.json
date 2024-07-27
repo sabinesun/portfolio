@@ -14,18 +14,14 @@
       "countryCode": "",
       "region": ""
     },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "",
+    "socialMedia": {
+      "linkedIn": {
         "url": "https://www.linkedin.com/in/sabinesun/"
       },
-      {
-        "network": "Github",
-        "username": "",
+      "github": {
         "url": "https://github.com/sabinesun"
       }
-    ]
+    }
   },
   "work": [
     {
