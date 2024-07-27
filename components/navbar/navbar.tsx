@@ -36,7 +36,6 @@ const Navbar = () => {
               <GitHubLogoIcon className="h-[1.2rem] w-[1.2rem]" />
             </a>
           </Button>
-
           <ModeToggle />
         </div>
       </div>
