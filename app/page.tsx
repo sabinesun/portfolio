@@ -11,11 +11,13 @@ const Home = () => {
             <DescriptionSection />
           </section>
           <section>
-            <h2 className="mb-4 w-full font-mono text-xl">work</h2>
+            <h2 className="mb-4 w-full text-xl font-medium">
+              Expériences Professionelles
+            </h2>
             <WorkSection />
           </section>
           <section>
-            <h2 className="mb-4 mt-10 w-full font-mono text-xl">projects</h2>
+            <h2 className="mb-4 mt-10 w-full text-xl font-medium">Projets</h2>
             <ProjectSection />
           </section>
         </div>
