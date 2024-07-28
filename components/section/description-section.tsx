@@ -1,4 +1,4 @@
-import { LinkDesign } from "@/components/ui/link";
+import { LinkDesign } from "@/components/ui/link-design";
 
 export const DescriptionSection = () => {
   return (
