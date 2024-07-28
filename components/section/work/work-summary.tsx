@@ -1,6 +1,6 @@
 import { LinkDesign } from "@/components/ui/link";
 
-export const WorkSummary = ({ summary }) => {
+export const WorkSummary = ({ summary }: { summary: string }) => {
   const regex = /\[([^\]]+)\]\(([^)]+)\)/gu;
   const parts = [];
   let lastIndex = 0;
