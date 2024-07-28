@@ -27,9 +27,7 @@ export const WorkSection = () => {
                 />
                 <div className="flex flex-1 flex-col items-start">
                   <div className="flex w-full flex-row justify-between ">
-                    <h3 className="leading-6 group-hover:underline">
-                      {company.name}
-                    </h3>
+                    <h3 className="leading-6">{company.name}</h3>
                     <p className="text-xs text-muted-foreground">
                       {`${company.startDate} - ${company.endDate}`}
                     </p>

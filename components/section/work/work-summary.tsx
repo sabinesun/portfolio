@@ -1,3 +1,5 @@
+import { LinkDesign } from "@/components/ui/link";
+
 export const WorkSummary = ({ summary }) => {
   const regex = /\[([^\]]+)\]\(([^)]+)\)/gu;
   const parts = [];
@@ -9,17 +11,7 @@ export const WorkSummary = ({ summary }) => {
       parts.push(summary.slice(lastIndex, match.index));
     }
 
-    parts.push(
-      <a
-        className="font-medium underline underline-offset-2"
-        href={match[2]}
-        key={match[2]}
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        {match[1]}
-      </a>,
-    );
+    parts.push(<LinkDesign href={match[2]}>{match[1]}</LinkDesign>);
     lastIndex = regex.lastIndex;
   }
 

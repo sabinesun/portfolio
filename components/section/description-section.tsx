@@ -1,17 +1,12 @@
-import Link from "next/link";
+import { LinkDesign } from "@/components/ui/link";
 
 export const DescriptionSection = () => {
   return (
     <div className="mb-10">
       Hey ! Frontend Engineer (bientôt 🙄) et passionnée par la création
       d'applications sobre et user-friendly en&nbsp;
-      <Link
-        className="underline underline-offset-2 hover:text-[#0A7EA4]"
-        href="https://fr.react.dev/"
-      >
-        React
-      </Link>
-      , je suis toujours à la recherche des best practices et du&nbsp;
+      <LinkDesign href="https://fr.react.dev/">React</LinkDesign>, je suis
+      toujours à la recherche des best practices et du&nbsp;
       <span className="relative w-fit">
         <img
           className="absolute -left-1 bottom-0 h-3 w-3 animate-spark"
