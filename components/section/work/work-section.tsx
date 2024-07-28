@@ -44,7 +44,10 @@ export const WorkSection = () => {
               </p>
               <ul className="ml-4">
                 {company.highlights.map((highlight) => (
-                  <li className="list-disc" key={highlight}>
+                  <li
+                    className="list-disc marker:text-muted-foreground/40"
+                    key={highlight}
+                  >
                     {highlight}
                   </li>
                 ))}
