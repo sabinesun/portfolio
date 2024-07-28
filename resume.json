@@ -39,6 +39,16 @@
         "Conception d’une version majeure d’une librairie utilisée pour générer des articles",
         "Migration des class component vers functional component,ajout des tests unitaires et fonctionnels, utilisation Storybook et documentation",
         "Amélioration de la maintenabilité du code, modernisation UI/UX des articles d’actualité, intégration de l’accessibilité"
+      ],
+      "skills": [
+        {"name": "React", "url": "https://fr.react.dev/"},
+        {"name": "TypeScript", "url": "https://www.typescriptlang.org/"},
+        {"name": "SCSS", "url": "https://sass-lang.com/"},
+        {"name": "Storybook", "url": "https://storybook.js.org/"},
+        {"name": "Vitest", "url": "https://vitest.dev/"},
+        {"name": "Playwright", "url": "https://playwright.dev/"},
+        {"name": "a11y"},
+        {"name": "i18n"}
       ]
     },
     {
@@ -56,6 +66,12 @@
         "Développement d’une card affichant des KPI et refonte d’une sidebar permettant une organisation hiérarchique",
         "Analyse des besoins du client, prise en main rapide du framework maison",
         "Modernisation du logiciel SaaS de planification de supply chain"
+      ],
+      "skills": [
+        {"name": "Framework maison"},
+        {"name": "TypeScript", "url": "https://www.typescriptlang.org/"},
+        {"name": "CSS", "url": "https://developer.mozilla.org/fr/docs/Web/CSS"},
+        {"name": "i18n"}
       ]
     }
   ],

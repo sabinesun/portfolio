@@ -6,7 +6,9 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { Badge, badgeVariants } from "@/components/ui/badge";
 import Image from "next/image";
+import Link from "next/link";
 
 export const WorkSection = () => {
   const { work } = resume;
@@ -49,6 +51,22 @@ export const WorkSection = () => {
                     key={highlight}
                   >
                     {highlight}
+                  </li>
+                ))}
+              </ul>
+              <ul className="mt-4 flex flex-wrap gap-1">
+                {company.skills.map(({ name, url }) => (
+                  <li key={name}>
+                    {url ? (
+                      <Link
+                        className={badgeVariants({ variant: "secondary" })}
+                        href={url}
+                      >
+                        {name}
+                      </Link>
+                    ) : (
+                      <Badge variant="secondary"> {name}</Badge>
+                    )}
                   </li>
                 ))}
               </ul>
