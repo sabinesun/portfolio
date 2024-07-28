@@ -1,4 +1,5 @@
-import resume from "../../resume.json";
+import resume from "../../../resume.json";
+import { WorkSummary } from "@/components/section/work/work-summary";
 import {
   Accordion,
   AccordionContent,
@@ -40,9 +41,16 @@ export const WorkSection = () => {
               </div>
             </AccordionTrigger>
             <AccordionContent className="pl-16">
-              {company.highlights.map((highlight) => (
-                <li key={highlight}> {highlight}</li>
-              ))}
+              <p className="pb-4">
+                <WorkSummary summary={company.summary} />
+              </p>
+              <ul className="ml-4">
+                {company.highlights.map((highlight) => (
+                  <li className="list-disc" key={highlight}>
+                    {highlight}
+                  </li>
+                ))}
+              </ul>
             </AccordionContent>
           </AccordionItem>
         );

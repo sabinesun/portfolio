@@ -33,7 +33,7 @@
       "url": "https://www.canalplus.com/",
       "startDate": "03/24",
       "endDate": "09/24",
-      "summary": "",
+      "summary": "Canal+ est un groupe de médias qui propose la plateforme de streaming [myCanal](https://www.canalplus.com/). Pendant mon stage de fin d'année, j'ai participé à la refonte des articles présents sur l'application myCanal.",
       "highlights": [
         "Développement et maintien de l’application de streaming myCanal",
         "Conception d’une version majeure d’une librairie utilisée pour générer des articles",
@@ -50,7 +50,7 @@
       "url": "https://dcbrain.com/",
       "startDate": "04/23",
       "endDate": "09/23",
-      "summary": "",
+      "summary": "[DCbrain](https://dcbrain.com/), une startup, propose un logiciel de Saas sur de la planification de la supply chain. Lors de ce stage, j'ai pu contribuer directement au développement du SaaS en ajoutant de nouvelles fonctionnalités.",
       "highlights": [
         "Conception de composants en collaboration avec le designer et le product manager",
         "Développement d’une card affichant des KPI et refonte d’une sidebar permettant une organisation hiérarchique",

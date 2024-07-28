@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const DescriptionSection = () => {
   return (
-    <div className="mb-10 font-light">
+    <div className="mb-10">
       Hey ! Frontend Engineer (bientôt 🙄) et passionnée par la création
       d'applications sobre et user-friendly en&nbsp;
       <Link
