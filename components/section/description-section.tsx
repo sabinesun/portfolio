@@ -1,4 +1,5 @@
 import { LinkDesign } from "@/components/ui/link-design";
+import Image from "next/image";
 
 export const DescriptionSection = () => {
   return (
@@ -8,23 +9,28 @@ export const DescriptionSection = () => {
       <LinkDesign href="https://fr.react.dev/">React</LinkDesign>, je suis
       toujours à la recherche des best practices et du&nbsp;
       <span className="relative w-fit">
-        <img
+        <Image
+          alt=""
           className="absolute -left-1 bottom-0 h-3 w-3 animate-spark"
           src="/sparkle.png"
         />
-        <img
+        <Image
+          alt=""
           className="absolute left-4 top-0 h-2 w-2 animate-spark2"
           src="/sparkle.png"
         />
-        <img
+        <Image
+          alt=""
           className="absolute -bottom-2 left-9 h-1.5 w-1.5 animate-spark"
           src="/sparkle.png"
         />
-        <img
+        <Image
+          alt=""
           className="absolute -top-0.5 left-14 h-2.5 w-2.5 animate-spark1"
           src="/sparkle.png"
         />
-        <img
+        <Image
+          alt=""
           className="absolute -right-3 -top-1 h-4 w-4 animate-spark delay-75	"
           src="/sparkle.png"
         />
