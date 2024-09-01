@@ -90,17 +90,17 @@
     }
   ],
   "skills": [
-    {
-      "name": "Web Development",
-      "keywords": [
-        "React",
-        "TypeScript",
-        "Javascript",
-        "Tailwind CSS",
-        "SCSS",
-        "Storybook"
-      ]
-    }
+    {"name": "React", "url": "https://fr.react.dev/"},
+    {"name": "TypeScript", "url": "https://www.typescriptlang.org/"},
+    {"name": "JavaScript", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"},
+    {"name": "CSS", "url": "https://developer.mozilla.org/fr/docs/Web/CSS"},
+    {"name": "SCSS", "url": "https://sass-lang.com/"},
+    {"name": "Tailwind CSS", "url": "https://tailwindcss.com/"},
+    {"name": "Storybook", "url": "https://storybook.js.org/"},
+    {"name": "Vitest", "url": "https://vitest.dev/"},
+    {"name": "Playwright", "url": "https://playwright.dev/"},
+    {"name": "a11y", "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility"},
+    {"name": "i18next", "url": "https://www.i18next.com/"}
   ],
   "languages": [
     {

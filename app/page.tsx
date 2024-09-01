@@ -1,5 +1,6 @@
 import { DescriptionSection } from "@/components/section/description-section";
 import { ProjectSection } from "@/components/section/project-section";
+import { SkillSection } from "@/components/section/skill-section";
 import { WorkSection } from "@/components/section/work/work-section";
 
 const Home = () => {
@@ -9,6 +10,10 @@ const Home = () => {
         <div className="mx-10 md:mx-0">
           <section>
             <DescriptionSection />
+          </section>
+          <section>
+            <h2 className="mb-4 w-full text-xl font-medium">Compétences</h2>
+            <SkillSection />
           </section>
           <section>
             <h2 className="mb-4 w-full text-xl font-medium">
