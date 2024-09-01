@@ -118,7 +118,7 @@
   ],
   "projects": [
     {
-      "name": "Catalogue de film et série",
+      "name": "Flix Catalog",
       "logo": "/logo/popcorn.png",
       "description": "Moteur de recherche de film et de série",
       "highlights": [
@@ -126,7 +126,7 @@
         "Collaboration en équipe en utilisant GitHub et Linear pour la gestion et le suivi du projet"
       ],
       "year": "2024",
-      "url": "https://github.com/sabinesun/flixcatalog"
+      "url": "https://flixcatalog.vercel.app/"
     },
     {
       "name": "Délice de Yifan",
@@ -136,9 +136,7 @@
         "Développement d’une plateforme web visant à simplifier les commandes (click & collect) pour le restaurant familial",
         "Collaboration en équipe en utilisant GitHub et Linear pour la gestion et le suivi du projet"
       ],
-      "year": "2024",
-
-      "url": "https://github.com/bastiensun/yifan"
+      "year": "2024"
     },
     {
       "name": "Sopra Steria",
@@ -149,7 +147,7 @@
         "Collaboration en équipe de six avec Teams et GitHub pour la gestion et le suivi du projet"
       ],
       "year": "2023",
-      "url": "https://github.com/bastiensun/yifan"
+      "url": "https://github.com/strawhattom/battle-judge-front"
     }
   ]
 }
