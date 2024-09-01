@@ -12,7 +12,7 @@ const Home = () => {
           </section>
           <section>
             <h2 className="mb-4 w-full text-xl font-medium">
-              Expériences Professionelles
+              Expérience Professionelle
             </h2>
             <WorkSection />
           </section>

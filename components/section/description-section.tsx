@@ -3,8 +3,8 @@ import { LinkDesign } from "@/components/ui/link-design";
 export const DescriptionSection = () => {
   return (
     <div className="mb-10">
-      Hey ! Frontend Engineer (bientôt 🙄) et passionnée par la création
-      d'applications sobre et user-friendly en&nbsp;
+      Hey ! Ingénieure Frontend et passionnée par la création d'applications
+      sobres et user-friendly en&nbsp;
       <LinkDesign href="https://fr.react.dev/">React</LinkDesign>, je suis
       toujours à la recherche des best practices et du&nbsp;
       <span className="relative w-fit">
