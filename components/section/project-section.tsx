@@ -31,7 +31,7 @@ export const ProjectSection = () => {
     return (
       <Button
         asChild
-        className={`flex h-fit items-center p-4 ${!project.url && "hover:bg-white"}`}
+        className={`flex h-fit items-center p-4 ${!project.url && "hover:bg-transparent"}`}
         key={project.name}
         variant="ghost"
       >
