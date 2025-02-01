@@ -16,8 +16,8 @@ const Navbar = () => {
     <nav className="m-10 flex justify-center">
       <div className="flex w-full items-center justify-between md:max-w-xl">
         <div className="flex">
-          <div className="relative mr-2 size-10">
-            <Image alt="" fill src="/logo/memoji.png" />
+          <div className="relative mr-2 size-14">
+            <Image alt="" fill src="/logo/me.png" />
           </div>
           <div className="flex flex-col">
             <h1 className="text-lg font-bold">{basics.name}</h1>
