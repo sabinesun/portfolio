@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="flex w-full items-center justify-between md:max-w-xl">
         <div className="flex">
           <div className="relative mr-2 size-14">
-            <Image alt="" fill src="/logo/me.png" />
+            <Image alt="" fill src="/logo/me.svg" />
           </div>
           <div className="flex flex-col">
             <h1 className="text-lg font-bold">{basics.name}</h1>

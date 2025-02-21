@@ -27,7 +27,7 @@
     {
       "name": "Canal+",
       "location": "Puteaux, 92800",
-      "logo": "/logo/canal-plus.png",
+      "logo": "/logo/mycanal.svg",
       "description": "",
       "position": "Développeuse Frontend",
       "url": "https://www.canalplus.com/",
@@ -41,20 +41,20 @@
         "Amélioration de la maintenabilité du code, modernisation UI/UX des articles d’actualité, intégration de l’accessibilité"
       ],
       "skills": [
-        {"name": "React", "url": "https://fr.react.dev/"},
-        {"name": "TypeScript", "url": "https://www.typescriptlang.org/"},
-        {"name": "SCSS", "url": "https://sass-lang.com/"},
-        {"name": "Storybook", "url": "https://storybook.js.org/"},
-        {"name": "Vitest", "url": "https://vitest.dev/"},
-        {"name": "Playwright", "url": "https://playwright.dev/"},
-        {"name": "a11y"},
-        {"name": "i18n"}
+        { "name": "React", "url": "https://fr.react.dev/" },
+        { "name": "TypeScript", "url": "https://www.typescriptlang.org/" },
+        { "name": "SCSS", "url": "https://sass-lang.com/" },
+        { "name": "Storybook", "url": "https://storybook.js.org/" },
+        { "name": "Vitest", "url": "https://vitest.dev/" },
+        { "name": "Playwright", "url": "https://playwright.dev/" },
+        { "name": "a11y" },
+        { "name": "i18n" }
       ]
     },
     {
       "name": "DCbrain",
       "location": "Paris, 75017",
-      "logo": "/logo/dcbrain.png",
+      "logo": "/logo/dcbrain.svg",
       "description": "",
       "position": "Développeuse Frontend",
       "url": "https://dcbrain.com/",
@@ -68,10 +68,13 @@
         "Modernisation du logiciel SaaS de planification de supply chain"
       ],
       "skills": [
-        {"name": "Framework maison"},
-        {"name": "TypeScript", "url": "https://www.typescriptlang.org/"},
-        {"name": "CSS", "url": "https://developer.mozilla.org/fr/docs/Web/CSS"},
-        {"name": "i18n"}
+        { "name": "Framework maison" },
+        { "name": "TypeScript", "url": "https://www.typescriptlang.org/" },
+        {
+          "name": "CSS",
+          "url": "https://developer.mozilla.org/fr/docs/Web/CSS"
+        },
+        { "name": "i18n" }
       ]
     }
   ],
@@ -90,17 +93,23 @@
     }
   ],
   "skills": [
-    {"name": "React", "url": "https://fr.react.dev/"},
-    {"name": "TypeScript", "url": "https://www.typescriptlang.org/"},
-    {"name": "JavaScript", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"},
-    {"name": "CSS", "url": "https://developer.mozilla.org/fr/docs/Web/CSS"},
-    {"name": "SCSS", "url": "https://sass-lang.com/"},
-    {"name": "Tailwind CSS", "url": "https://tailwindcss.com/"},
-    {"name": "Storybook", "url": "https://storybook.js.org/"},
-    {"name": "Vitest", "url": "https://vitest.dev/"},
-    {"name": "Playwright", "url": "https://playwright.dev/"},
-    {"name": "a11y", "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility"},
-    {"name": "i18next", "url": "https://www.i18next.com/"}
+    { "name": "React", "url": "https://fr.react.dev/" },
+    { "name": "TypeScript", "url": "https://www.typescriptlang.org/" },
+    {
+      "name": "JavaScript",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    { "name": "CSS", "url": "https://developer.mozilla.org/fr/docs/Web/CSS" },
+    { "name": "SCSS", "url": "https://sass-lang.com/" },
+    { "name": "Tailwind CSS", "url": "https://tailwindcss.com/" },
+    { "name": "Storybook", "url": "https://storybook.js.org/" },
+    { "name": "Vitest", "url": "https://vitest.dev/" },
+    { "name": "Playwright", "url": "https://playwright.dev/" },
+    {
+      "name": "a11y",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility"
+    },
+    { "name": "i18next", "url": "https://www.i18next.com/" }
   ],
   "languages": [
     {
@@ -119,7 +128,7 @@
   "projects": [
     {
       "name": "Flix Catalog",
-      "logo": "/logo/popcorn.png",
+      "logo": "/logo/popcorn.svg",
       "description": "Moteur de recherche de film et de série",
       "highlights": [
         "Développement d’une plateforme web visant à simplifier les commandes (click & collect) pour le restaurant familial",
@@ -130,7 +139,7 @@
     },
     {
       "name": "Délices de Yifan",
-      "logo": "/logo/delice-de-yifan.png",
+      "logo": "/logo/delice-de-yifan.svg",
       "description": "Projet pour le restaurant familial",
       "highlights": [
         "Développement d’une plateforme web visant à simplifier les commandes (click & collect) pour le restaurant familial",
@@ -140,7 +149,7 @@
     },
     {
       "name": "Sopra Steria",
-      "logo": "/logo/sopra-steria.png",
+      "logo": "/logo/sopra-steria.svg",
       "description": "Projet universitaire avec Sopra Steria",
       "highlights": [
         "Développement d’une plateforme web pour des ”battles de code” avec gestion des utilisateurs et IHM d’administration",
