@@ -25,6 +25,32 @@
   },
   "work": [
     {
+      "name": "Kiosk",
+      "location": "Paris, 75003",
+      "logo": "/logo/kiosk.svg",
+      "description": "",
+      "position": "Ingénieure Frontend",
+      "url": "https://www.meetkiosk.com/",
+      "startDate": "11/24",
+      "endDate": "Aujourd'hui",
+      "summary": "Kiosk est le logiciel qui permet aux entreprises de se mettre en conformité avec la CSRD.",
+      "highlights": [
+        "Conception et déploiement d'un design system avec Storybook pour uniformiser et optimiser l'interface utilisateur",
+        "Collaboration étroite avec les designers et les équipes produit afin d'améliorer la cohérence et l'ergonomie de l'application",
+        "Intégration de Playwright pour l'automatisation des tests end-to-end, garantissant la fiabilité et la robustesse des fonctionnalités"
+      ],
+      "skills": [
+        { "name": "React", "url": "https://fr.react.dev/" },
+        { "name": "TypeScript", "url": "https://www.typescriptlang.org/" },
+        { "name": "Remix", "url": "https://remix.run/" },
+        { "name": "Mantine", "url": "https://mantine.dev/" },
+        { "name": "Prisma", "url": "https://www.prisma.io/" },
+        { "name": "Storybook", "url": "https://storybook.js.org/" },
+        { "name": "Playwright", "url": "https://playwright.dev/" },
+        { "name": "i18next", "url": "https://www.i18next.com/" }
+      ]
+    },
+    {
       "name": "Canal+",
       "location": "Puteaux, 92800",
       "logo": "/logo/mycanal.svg",
@@ -95,10 +121,7 @@
   "skills": [
     { "name": "React", "url": "https://fr.react.dev/" },
     { "name": "TypeScript", "url": "https://www.typescriptlang.org/" },
-    {
-      "name": "JavaScript",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-    },
+    { "name": "Remix", "url": "https://remix.run/" },
     { "name": "CSS", "url": "https://developer.mozilla.org/fr/docs/Web/CSS" },
     { "name": "SCSS", "url": "https://sass-lang.com/" },
     { "name": "Tailwind CSS", "url": "https://tailwindcss.com/" },
