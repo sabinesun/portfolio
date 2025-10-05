@@ -35,9 +35,9 @@
       "endDate": "Aujourd'hui",
       "summary": "Kiosk est le logiciel qui permet aux entreprises de se mettre en conformité avec la CSRD.",
       "highlights": [
-        "Conception et déploiement d'un design system avec Storybook pour uniformiser et optimiser l'interface utilisateur",
-        "Collaboration étroite avec les designers et les équipes produit afin d'améliorer la cohérence et l'ergonomie de l'application",
-        "Intégration de Playwright pour l'automatisation des tests end-to-end, garantissant la fiabilité et la robustesse des fonctionnalités"
+        "Résolution de bugs critiques ayant réduit le temps de navigation de 4,62s à moins de 30ms, améliorant significativement l’expérience utilisateur.",
+        "Mise en place d’un design system garantissant cohérence visuelle et meilleure UX.",
+        "Refonte de l’architecture front-end avec une approche modulaire (Domain-Driven Design) : mise en place d’entités, services et dépôts de données séparés, améliorant la maintenabilité et la lisibilité du code."
       ],
       "skills": [
         { "name": "React", "url": "https://fr.react.dev/" },
@@ -150,15 +150,15 @@
   ],
   "projects": [
     {
-      "name": "Flix Catalog",
-      "logo": "/logo/popcorn.svg",
+      "name": "Episo",
+      "logo": "/logo/episo.svg",
       "description": "Moteur de recherche de film et de série",
       "highlights": [
         "Développement d’une plateforme web visant à simplifier les commandes (click & collect) pour le restaurant familial",
         "Collaboration en équipe en utilisant GitHub et Linear pour la gestion et le suivi du projet"
       ],
-      "year": "2024",
-      "url": "https://flixcatalog.vercel.app/"
+      "year": "2025",
+      "url": "https://episo.vercel.app/en/trending"
     },
     {
       "name": "Délices de Yifan",
