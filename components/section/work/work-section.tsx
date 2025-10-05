@@ -1,3 +1,5 @@
+"use client";
+
 import resume from "../../../resume.json";
 import { WorkSummary } from "@/components/section/work/work-summary";
 import {
@@ -7,15 +9,23 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Badge, badgeVariants } from "@/components/ui/badge";
+import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";
 
 export const WorkSection = () => {
   const { work } = resume;
+  const { resolvedTheme } = useTheme();
 
   return (
     <Accordion collapsible type="single">
       {work.map((company) => {
+        const companyDarkLogo = company["logo-dark"];
+        const logoSrc =
+          resolvedTheme === "dark" && companyDarkLogo
+            ? companyDarkLogo
+            : company.logo;
+
         return (
           <AccordionItem key={company.name} value={company.name}>
             <AccordionTrigger>
@@ -24,7 +34,7 @@ export const WorkSection = () => {
                   alt={`${company.logo} Logo`}
                   className="h-8 w-8"
                   height={32}
-                  src={company.logo}
+                  src={logoSrc}
                   width={32}
                 />
                 <div className="flex flex-1 flex-col items-start">

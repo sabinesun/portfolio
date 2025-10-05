@@ -1,19 +1,27 @@
+"use client";
+
 import resume from "../../resume.json";
 import { Button } from "@/components/ui/button";
+import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";
 
 export const ProjectSection = () => {
   const { projects } = resume;
+  const { resolvedTheme } = useTheme();
 
   return projects.map((project) => {
+    const projectDarkLogo = project["logo-dark"];
+    const logoSrc =
+      resolvedTheme === "dark" && projectDarkLogo ? projectDarkLogo : project.logo;
+
     const ProjectContent = (
       <div className="flex flex-1 items-center gap-4">
         <Image
           alt={`${project.name} Logo`}
           className="h-8 w-8"
           height={32}
-          src={project.logo}
+          src={logoSrc}
           width={32}
         />
         <div className="flex flex-1 flex-col items-start">

@@ -28,6 +28,7 @@
       "name": "Kiosk",
       "location": "Paris, 75003",
       "logo": "/logo/kiosk.svg",
+      "logo-dark":"/logo/kiosk-dark.png",
       "description": "",
       "position": "Ingénieure Frontend",
       "url": "https://www.meetkiosk.com/",
@@ -152,6 +153,7 @@
     {
       "name": "Episo",
       "logo": "/logo/episo.svg",
+      "logo-dark": "/logo/episo-dark.svg",
       "description": "Moteur de recherche de film et de série",
       "highlights": [
         "Développement d’une plateforme web visant à simplifier les commandes (click & collect) pour le restaurant familial",
