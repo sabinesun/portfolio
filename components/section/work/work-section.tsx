@@ -1,6 +1,5 @@
 "use client";
 
-import resume from "../../../resume.json";
 import { WorkSummary } from "@/components/section/work/work-summary";
 import {
   Accordion,
@@ -9,29 +8,30 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Badge, badgeVariants } from "@/components/ui/badge";
-import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";
+import resume from "@/resume.json";
+import { useTranslations } from "next-intl";
+import { useTheme } from "next-themes";
 
 export const WorkSection = () => {
+  const t = useTranslations("resume");
   const { work } = resume;
-  const { resolvedTheme } = useTheme();
+  const { theme } = useTheme();
 
   return (
     <Accordion collapsible type="single">
       {work.map((company) => {
-        const companyDarkLogo = company["logo-dark"];
+        const companyDarkLogo = company.logoDark;
         const logoSrc =
-          resolvedTheme === "dark" && companyDarkLogo
-            ? companyDarkLogo
-            : company.logo;
+          theme === "dark" && companyDarkLogo ? companyDarkLogo : company.logo;
 
         return (
-          <AccordionItem key={company.name} value={company.name}>
+          <AccordionItem key={company.id} value={company.id}>
             <AccordionTrigger>
               <div className="flex flex-1 items-center gap-4 px-4">
                 <Image
-                  alt={`${company.logo} Logo`}
+                  alt={`${company.id} Logo`}
                   className="h-8 w-8"
                   height={32}
                   src={logoSrc}
@@ -39,43 +39,43 @@ export const WorkSection = () => {
                 />
                 <div className="flex flex-1 flex-col items-start">
                   <div className="flex w-full flex-row justify-between ">
-                    <h3 className="leading-6">{company.name}</h3>
+                    <h3 className="leading-6">{t(company.nameKey)}</h3>
                     <p className="text-xs text-muted-foreground">
-                      {`${company.startDate} - ${company.endDate}`}
+                      {`${company.startDate} - ${t(company.endDateKey)}`}
                     </p>
                   </div>
                   <p className="text-xs font-light text-muted-foreground">
-                    {company.position}
+                    {t(company.positionKey)}
                   </p>
                 </div>
               </div>
             </AccordionTrigger>
             <AccordionContent className="pl-16">
               <p className="pb-4">
-                <WorkSummary summary={company.summary} />
+                <WorkSummary summary={t(company.summaryKey)} />
               </p>
               <ul className="ml-4">
-                {company.highlights.map((highlight) => (
+                {company.highlights.map((highlightKey) => (
                   <li
                     className="list-disc marker:text-muted-foreground/40"
-                    key={highlight}
+                    key={highlightKey}
                   >
-                    {highlight}
+                    {t(highlightKey)}
                   </li>
                 ))}
               </ul>
               <ul className="mt-4 flex flex-wrap gap-1">
-                {company.skills.map(({ name, url }) => (
-                  <li key={name}>
+                {company.skills.map(({ id, nameKey, url }) => (
+                  <li key={id}>
                     {url ? (
                       <Link
                         className={badgeVariants({ variant: "secondary" })}
                         href={url}
                       >
-                        {name}
+                        {t(nameKey)}
                       </Link>
                     ) : (
-                      <Badge variant="secondary"> {name}</Badge>
+                      <Badge variant="secondary">{t(nameKey)}</Badge>
                     )}
                   </li>
                 ))}

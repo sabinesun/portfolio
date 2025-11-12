@@ -1,4 +1,3 @@
-import resume from "../../resume.json";
 import { ModeToggle } from "@/components/theme/mode-toggle";
 import { Button } from "@/components/ui/button";
 import {
@@ -8,8 +7,12 @@ import {
 } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
+import resume from "@/resume.json";
+import { getTranslations } from "next-intl/server";
+import { LanguageToggle } from "./language-toggle";
 
-const Navbar = () => {
+const Navbar = async () => {
+  const t = await getTranslations("resume");
   const { basics } = resume;
 
   return (
@@ -20,9 +23,9 @@ const Navbar = () => {
             <Image alt="" fill src="/logo/me.svg" />
           </div>
           <div className="flex flex-col">
-            <h1 className="text-lg font-bold">{basics.name}</h1>
+            <h1 className="text-lg font-bold">{t(basics.nameKey)}</h1>
             <p className="whitespace-nowrap text-xs font-light leading-3 text-muted-foreground">
-              {basics.label}
+              {t(basics.labelKey)}
             </p>
           </div>
         </div>
@@ -42,6 +45,7 @@ const Navbar = () => {
               <GitHubLogoIcon className="h-[1.2rem] w-[1.2rem]" />
             </a>
           </Button>
+          <LanguageToggle />
           <ModeToggle />
         </div>
       </div>

@@ -1,10 +1,11 @@
+import type { ReactNode } from "react";
 import Link from "next/link";
 
 export const LinkDesign = ({
   children,
   href,
 }: {
-  readonly children: string;
+  readonly children: ReactNode;
   readonly href: string;
 }) => {
   return (

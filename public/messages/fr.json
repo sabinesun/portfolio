@@ -1,0 +1,106 @@
+{
+  "home-page": {
+    "skills-heading": "Compétences",
+    "experience-heading": "Expérience professionnelle",
+    "projects-heading": "Projets"
+  },
+  "description-section": {
+    "intro": "Hey ! Ingénieure frontend passionnée par la création d'applications sobres et user-friendly en <react>React</react>, je suis toujours à la recherche des best practices et du <pixelPerfect>pixel perfect.</pixelPerfect>"
+  },
+  "mode-toggle": {
+    "sr-label": "Changer de thème",
+    "options": {
+      "light": "Clair",
+      "dark": "Sombre",
+      "system": "Système"
+    }
+  },
+  "language-toggle": {
+    "sr-label": "Changer de langue",
+    "locales": {
+      "en": "en",
+      "fr": "fr"
+    }
+  },
+  "footer": {
+    "made-with": "Fait avec"
+  },
+  "resume": {
+    "basics": {
+      "name": "Sabine Sun",
+      "label": "Ingénieure Frontend",
+      "summary": "Rigoureuse et autonome, je suis à la recherche d’un CDI en développement front-end à partir d’octobre 2024."
+    },
+    "work": {
+      "kiosk": {
+        "name": "Kiosk",
+        "location": "Paris, 75003",
+        "position": "Ingénieure Frontend",
+        "summary": "Kiosk est le logiciel qui permet aux entreprises de se mettre en conformité avec la CSRD.",
+        "end-date": "Aujourd'hui",
+        "highlights": {
+          "navigation-speed": "Résolution de bugs critiques ayant réduit le temps de navigation de 4,62s à moins de 30ms, améliorant significativement l’expérience utilisateur.",
+          "design-system": "Mise en place d’un design system garantissant cohérence visuelle et meilleure UX.",
+          "architecture-refactor": "Refonte de l’architecture front-end avec une approche modulaire (Domain-Driven Design) : mise en place d’entités, services et dépôts de données séparés, améliorant la maintenabilité et la lisibilité du code."
+        }
+      },
+      "canal": {
+        "name": "Canal+",
+        "location": "Puteaux, 92800",
+        "position": "Développeuse Frontend",
+        "summary": "Canal+ est un groupe de médias qui propose la plateforme de streaming [myCanal](https://www.canalplus.com/). Pendant mon stage de fin d'année, j'ai participé à la refonte des articles présents sur l'application myCanal.",
+        "end-date": "09/24",
+        "highlights": {
+          "streaming-development": "Développement et maintien de l’application de streaming myCanal",
+          "library-version": "Conception d’une version majeure d’une librairie utilisée pour générer des articles",
+          "migration": "Migration des class component vers functional component, ajout des tests unitaires et fonctionnels, utilisation Storybook et documentation",
+          "maintainability": "Amélioration de la maintenabilité du code, modernisation UI/UX des articles d’actualité, intégration de l’accessibilité"
+        }
+      },
+      "dcbrain": {
+        "name": "DCbrain",
+        "location": "Paris, 75017",
+        "position": "Développeuse Frontend",
+        "summary": "[DCbrain](https://dcbrain.com/), une startup, propose un logiciel de SaaS sur de la planification de la supply chain. Lors de ce stage, j'ai pu contribuer directement au développement du SaaS en ajoutant de nouvelles fonctionnalités.",
+        "end-date": "09/23",
+        "highlights": {
+          "component-design": "Conception de composants en collaboration avec le designer et le product manager",
+          "kpi-card": "Développement d’une card affichant des KPI et refonte d’une sidebar permettant une organisation hiérarchique",
+          "client-needs": "Analyse des besoins du client, prise en main rapide du framework maison",
+          "modernization": "Modernisation du logiciel SaaS de planification de supply chain"
+        }
+      }
+    },
+    "projects": {
+      "episo": {
+        "name": "Episo",
+        "description": "Moteur de recherche de film et de série"
+      },
+      "delices": {
+        "name": "Délices de Yifan",
+        "description": "Projet pour le restaurant familial"
+      },
+      "sopra": {
+        "name": "Sopra Steria",
+        "description": "Projet universitaire avec Sopra Steria"
+      }
+    },
+    "skills": {
+      "react": "React",
+      "typescript": "TypeScript",
+      "remix": "Remix",
+      "css": "CSS",
+      "scss": "SCSS",
+      "tailwind": "Tailwind CSS",
+      "storybook": "Storybook",
+      "vitest": "Vitest",
+      "playwright": "Playwright",
+      "a11y": "a11y",
+      "i18next": "i18next",
+      "mantine": "Mantine",
+      "prisma": "Prisma",
+      "i18n": "i18n",
+      "custom-framework": "Framework maison"
+    }
+  }
+}
