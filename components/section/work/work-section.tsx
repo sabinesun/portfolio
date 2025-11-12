@@ -12,31 +12,38 @@ import Image from "next/image";
 import Link from "next/link";
 import resume from "@/resume.json";
 import { useTranslations } from "next-intl";
-import { useTheme } from "next-themes";
 
 export const WorkSection = () => {
   const t = useTranslations("resume");
   const { work } = resume;
-  const { theme } = useTheme();
 
   return (
     <Accordion collapsible type="single">
       {work.map((company) => {
-        const companyDarkLogo = company.logoDark;
-        const logoSrc =
-          theme === "dark" && companyDarkLogo ? companyDarkLogo : company.logo;
-
         return (
           <AccordionItem key={company.id} value={company.id}>
             <AccordionTrigger>
               <div className="flex flex-1 items-center gap-4 px-4">
-                <Image
-                  alt={`${company.id} Logo`}
-                  className="h-8 w-8"
-                  height={32}
-                  src={logoSrc}
-                  width={32}
-                />
+                <div className="h-8 w-8">
+                  <div className="block h-full w-full dark:hidden">
+                    <Image
+                      alt={`${company.id} Logo`}
+                      className="h-8 w-8"
+                      height={32}
+                      src={company.logo}
+                      width={32}
+                    />
+                  </div>
+                  <div className="hidden h-full w-full dark:block">
+                    <Image
+                      alt={`${company.id} Logo`}
+                      className="h-8 w-8"
+                      height={32}
+                      src={company.logoDark}
+                      width={32}
+                    />
+                  </div>
+                </div>
                 <div className="flex flex-1 flex-col items-start">
                   <div className="flex w-full flex-row justify-between ">
                     <h3 className="leading-6">{t(company.nameKey)}</h3>

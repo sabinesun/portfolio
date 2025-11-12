@@ -5,29 +5,34 @@ import Image from "next/image";
 import Link from "next/link";
 import resume from "@/resume.json";
 import { useTranslations } from "next-intl";
-import { useTheme } from "next-themes";
 
 export const ProjectSection = () => {
   const t = useTranslations("resume");
   const { projects } = resume;
-  const { resolvedTheme } = useTheme();
 
   return projects.map((project) => {
-    const projectDarkLogo = project.logoDark;
-    const logoSrc =
-      resolvedTheme === "dark" && projectDarkLogo
-        ? projectDarkLogo
-        : project.logo;
-
     const ProjectContent = (
       <div className="flex flex-1 items-center gap-4">
-        <Image
-          alt={`${t(project.nameKey)} Logo`}
-          className="h-8 w-8"
-          height={32}
-          src={logoSrc}
-          width={32}
-        />
+        <div className="h-8 w-8">
+          <div className="block h-full w-full dark:hidden">
+            <Image
+              alt={`${t(project.nameKey)} Logo`}
+              className="h-8 w-8"
+              height={32}
+              src={project.logo}
+              width={32}
+            />
+          </div>
+          <div className="hidden h-full w-full dark:block">
+            <Image
+              alt={`${t(project.nameKey)} Logo`}
+              className="h-8 w-8"
+              height={32}
+              src={project.logoDark}
+              width={32}
+            />
+          </div>
+        </div>
         <div className="flex flex-1 flex-col items-start">
           <div className="flex w-full flex-row justify-between">
             <h3 className="leading-6 group-hover:underline">

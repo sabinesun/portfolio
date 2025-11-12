@@ -63,6 +63,7 @@
       "summaryKey": "work.canal.summary",
       "url": "https://www.canalplus.com/",
       "logo": "/logo/mycanal.svg",
+      "logoDark": "/logo/mycanal.svg",
       "startDate": "03/24",
       "endDateKey": "work.canal.end-date",
       "highlights": [
@@ -94,6 +95,7 @@
       "summaryKey": "work.dcbrain.summary",
       "url": "https://dcbrain.com/",
       "logo": "/logo/dcbrain.svg",
+      "logoDark": "/logo/dcbrain.svg",
       "startDate": "04/23",
       "endDateKey": "work.dcbrain.end-date",
       "highlights": [
@@ -133,6 +135,7 @@
       "nameKey": "projects.delices.name",
       "descriptionKey": "projects.delices.description",
       "logo": "/logo/delice-de-yifan.svg",
+      "logoDark": "/logo/delice-de-yifan.svg",
       "year": "2024"
     },
     {
@@ -140,6 +143,7 @@
       "nameKey": "projects.sopra.name",
       "descriptionKey": "projects.sopra.description",
       "logo": "/logo/sopra-steria.svg",
+      "logoDark": "/logo/sopra-steria.svg",
       "year": "2023",
       "url": "https://github.com/strawhattom/battle-judge-front"
     }
