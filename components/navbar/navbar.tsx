@@ -10,6 +10,7 @@ import Link from "next/link";
 import resume from "@/resume.json";
 import { getTranslations } from "next-intl/server";
 import { LanguageToggle } from "./language-toggle";
+import { Separator } from "../ui/separator";
 
 const Navbar = async () => {
   const t = await getTranslations("resume");
@@ -29,7 +30,7 @@ const Navbar = async () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-0.5">
+        <div className="flex items-center gap-0.5">
           <Button asChild className="w-9 p-0" variant="ghost">
             <Link href={`mailto: ${basics.email}`}>
               <EnvelopeClosedIcon className="h-[1.2rem] w-[1.2rem]" />
@@ -45,6 +46,7 @@ const Navbar = async () => {
               <GitHubLogoIcon className="h-[1.2rem] w-[1.2rem]" />
             </a>
           </Button>
+          <Separator orientation="vertical" className="h-6" />
           <LanguageToggle />
           <ModeToggle />
         </div>
