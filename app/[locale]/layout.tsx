@@ -1,8 +1,7 @@
 import Footer from "@/components/footer/footer";
 import Navbar from "@/components/navbar/navbar";
 import { routing } from "@/i18n/routing";
-import { NextIntlClientProvider } from "next-intl";
-import { hasLocale } from "next-intl";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 
@@ -20,7 +19,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   setRequestLocale(locale);
 
-  const messages = await getMessages();
+  const messages = await getMessages({ locale });
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>

@@ -22,6 +22,11 @@ const eslintConfig = defineConfig([
 
   // Put Prettier to turn off conflicting stylistic rules
   prettier,
+  {
+    rules: {
+      "@typescript-eslint/consistent-type-definitions": "off",
+    },
+  },
 ]);
 
 export default eslintConfig;

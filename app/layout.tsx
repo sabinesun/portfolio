@@ -1,11 +1,8 @@
-// eslint-disable-next-line import/no-unassigned-import
-import "./globals.css";
-import Navbar from "../components/navbar/navbar";
-import Footer from "@/components/footer/footer";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { Analytics } from "@vercel/analytics/react";
 import { type Metadata } from "next";
 import { Inter } from "next/font/google";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
@@ -13,7 +10,6 @@ export const metadata: Metadata = {
   title: "Sabine SUN",
 };
 
-// eslint-disable-next-line react/function-component-definition
 export default function RootLayout({
   children,
 }: Readonly<{

@@ -1,9 +1,11 @@
-import { LinkDesign } from "@/components/ui/link-design";
-import Image from "next/image";
-import { getTranslations } from "next-intl/server";
+"use client";
 
-export const DescriptionSection = async () => {
-  const t = await getTranslations("description-section");
+import { LinkDesign } from "@/components/ui/link-design";
+import { useTranslations } from "next-intl";
+import Image from "next/image";
+
+export const DescriptionSection = () => {
+  const t = useTranslations("description-section");
 
   return (
     <div className="mb-10">

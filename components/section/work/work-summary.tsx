@@ -1,7 +1,6 @@
 import { LinkDesign } from "@/components/ui/link-design";
 
 export const WorkSummary = ({ summary }: { summary: string }) => {
-  // eslint-disable-next-line require-unicode-regexp, unicorn/better-regex
   const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
   const parts = [];
   let lastIndex = 0;
