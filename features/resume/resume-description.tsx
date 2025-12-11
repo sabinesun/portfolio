@@ -27,7 +27,7 @@ export const ResumeDescription = async () => {
     <div className="text-sm">
       <div className="flex flex-col gap-1">
         <Link
-          className="group flex h-6 items-center gap-4 text-foreground"
+          className="group flex h-6 items-center gap-4 whitespace-nowrap text-foreground"
           href="https://www.meetkiosk.com/"
           rel="noreferrer"
           target="_blank"
