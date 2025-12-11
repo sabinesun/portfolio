@@ -15,8 +15,11 @@
     }
   },
   "resume-description": {
-    "headline": "Ingénieure frontend orientée produit @Kiosk",
-    "location": "Paris, France"
+    "headline": "Ingénieure frontend orientée produit <company>@Kiosk</company>",
+    "location": "Paris, France",
+    "email": "sabine.sun@protonmail.com",
+    "linkedin": "linkedin.com/in/sabinesun",
+    "github": "github.com/sabinesun"
   },
   "mode-toggle": {
     "sr-label": "Changer de thème",

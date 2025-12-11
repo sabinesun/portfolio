@@ -15,8 +15,11 @@
     }
   },
   "resume-description": {
-    "headline": "Product-Focused Frontend Engineer @Kiosk",
-    "location": "Paris, France"
+    "headline": "Product-Focused Frontend Engineer <company>@Kiosk</company>",
+    "location": "Paris, France",
+    "email": "sabine.sun@protonmail.com",
+    "linkedin": "linkedin.com/in/sabinesun",
+    "github": "github.com/sabinesun"
   },
   "mode-toggle": {
     "sr-label": "Toggle theme",
