@@ -13,6 +13,8 @@ const Home = async () => {
     getTranslations("resume"),
   ]);
   const { basics } = resume;
+  const isDecember = new Date().getMonth() === 11;
+  const avatarSrc = isDecember ? "/logo/me-christmas.svg" : "/logo/me.svg";
 
   return (
     <main className="flex flex-col items-center font-light">
@@ -21,7 +23,7 @@ const Home = async () => {
           <section>
             <div className="relative flex w-full">
               <div className="relative block size-28 shrink-0 md:size-36">
-                <Image alt="" fill src="/logo/me.svg" />
+                <Image alt="" fill src={avatarSrc} />
               </div>
               <div className="absolute left-28 top-1/2 md:left-36">
                 <h2 className="text-lg font-medium leading-6">
