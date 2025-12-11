@@ -1,11 +1,22 @@
 {
   "home-page": {
+    "tagline": "Every pixel has a purpose.",
+    "about-heading": "À propos",
     "skills-heading": "Compétences",
     "experience-heading": "Expérience professionnelle",
     "projects-heading": "Projets"
   },
   "description-section": {
-    "intro": "Hey ! Ingénieure frontend passionnée par la création d'applications sobres et user-friendly en <react>React</react>, je suis toujours à la recherche des best practices et du <pixelPerfect>pixel perfect.</pixelPerfect>"
+    "paragraphs": {
+      "hello": "Hello !",
+      "craft": "Ingénieure frontend basée en France, j’essaie de créer des interfaces minimalistes, <pixelPerfect>pixel-perfect</pixelPerfect> et agréables à utiliser. ",
+      "learn": "En tant que jeune développeuse, j’aime apprendre et progresser chaque jour. Toujours curieuse de nouvelles idées en développement, en UX ou en création pour construire quelque chose d’un peu meilleur qu’hier.",
+      "life": "Et quand je quitte l’univers du numérique, je me laisse porter par de nouvelles découvertes culinaires, le voyage, et le plaisir de créer."
+    }
+  },
+  "resume-description": {
+    "headline": "Ingénieure frontend orientée produit @Kiosk",
+    "location": "Paris, France"
   },
   "mode-toggle": {
     "sr-label": "Changer de thème",

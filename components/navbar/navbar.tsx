@@ -6,7 +6,7 @@ const Navbar = async () => {
   const t = await getTranslations("common");
 
   return (
-    <nav className="m-10 flex justify-center">
+    <nav className="m-8 flex justify-center">
       <div className="flex w-full items-center justify-between md:max-w-xl">
         <div className="flex gap-4">
           <p className="capitalize">{t("portfolio")}</p>

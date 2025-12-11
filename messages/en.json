@@ -1,11 +1,22 @@
 {
   "home-page": {
+    "tagline": "Every pixel has a purpose.",
+    "about-heading": "About",
     "skills-heading": "Skills",
     "experience-heading": "Professional Experience",
     "projects-heading": "Projects"
   },
   "description-section": {
-    "intro": "Hey! I'm a frontend engineer who loves crafting sleek, user-friendly applications in <react>React</react>, always chasing best practices and that <pixelPerfect>pixel perfect.</pixelPerfect>"
+    "paragraphs": {
+      "hello": "Hello there!",
+      "craft": "Frontend engineer based in France, trying to craft minimalist, <pixelPerfect>pixel-perfect</pixelPerfect> interfaces that feel simple and pleasant for users.",
+      "learn": "As a young developer, I love to learn and keep improving. Always picking up new ideas in coding, UX, and creative patterns to build things that feel better than yesterday.",
+      "life": "Outside the screen, I love discovering new food and restaurants, traveling, and building things with my hands, anything that lets me play, create, and reset my brain."
+    }
+  },
+  "resume-description": {
+    "headline": "Product-Focused Frontend Engineer @Kiosk",
+    "location": "Paris, France"
   },
   "mode-toggle": {
     "sr-label": "Toggle theme",
