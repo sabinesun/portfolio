@@ -13,28 +13,30 @@ import { type ReactNode } from "react";
 export const ResumeDescription = async () => {
   const t = await getTranslations("resume-description");
   const company = (chunks: ReactNode) => (
-    <span className="relative inline-flex items-center gap-1">
-      <span className="inline-block translate-x-4 opacity-0 transition duration-200 ease-out group-hover:translate-x-0 group-hover:opacity-100 ">
-        🍃
-      </span>
-      <span className="inline-block -translate-x-4  transition  duration-200 ease-out group-hover:translate-x-0 group-hover:font-medium group-hover:text-green-700">
-        {chunks}
-      </span>
-    </span>
+    <Link
+      className="group relative inline-flex items-center"
+      href="https://www.meetkiosk.com/"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <p className="relative inline-flex items-center gap-1">
+        <span className="inline-block translate-x-4 opacity-0 transition duration-200 ease-out group-hover:translate-x-0 group-hover:opacity-100 ">
+          🍃
+        </span>
+        <span className="inline-block -translate-x-4  transition  duration-200 ease-out group-hover:translate-x-0 group-hover:font-medium group-hover:text-green-700">
+          {chunks}
+        </span>
+      </p>
+    </Link>
   );
 
   return (
     <div className="text-sm">
       <div className="flex flex-col gap-1">
-        <Link
-          className="group flex h-6 items-center gap-4 whitespace-nowrap text-foreground"
-          href="https://www.meetkiosk.com/"
-          rel="noreferrer"
-          target="_blank"
-        >
+        <div className="flex h-6 w-fit items-center gap-4 whitespace-nowrap p-0 font-light">
           <CodeIcon className="ml-2 size-5 shrink-0" />
           <span>{t.rich("headline", { company })}</span>
-        </Link>
+        </div>
         <Button
           asChild
           variant="link"
