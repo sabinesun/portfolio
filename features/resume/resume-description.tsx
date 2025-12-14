@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Icon } from "@/components/ui/icon";
 import {
   CodeIcon,
   Github,
@@ -34,59 +35,69 @@ export const ResumeDescription = async () => {
   return (
     <div className="text-sm">
       <div className="flex flex-col gap-1">
-        <div className="flex h-6 w-fit items-center gap-4 p-0 px-3 font-light whitespace-nowrap">
-          <CodeIcon className="ml-2 size-5 shrink-0" />
+        <div className="flex h-6 w-fit items-center gap-3 p-0 px-3 font-light whitespace-nowrap">
+          <Icon className="ml-2">
+            <CodeIcon />
+          </Icon>
           <span>{t.rich("headline", { company })}</span>
         </div>
         <Button
           asChild
           variant="link"
-          className="flex h-6 w-fit items-center gap-4 p-0 font-light"
+          className="flex h-6 w-fit items-center gap-3 p-0 font-light"
         >
           <Link
             href="https://www.google.com/maps/place/Paris/"
             rel="noreferrer"
             target="_blank"
           >
-            <HomeIcon className="ml-2 size-5 shrink-0" />
+            <Icon className="ml-2">
+              <HomeIcon />
+            </Icon>
             <p>{t("location")}</p>
           </Link>
         </Button>
         <Button
           asChild
           variant="link"
-          className="flex h-6 w-fit items-center gap-4 p-0 font-light"
+          className="flex h-6 w-fit items-center gap-3 p-0 font-light"
         >
           <Link href="mailto:sabine.sun@protonmail.com">
-            <MailIcon className="ml-2 size-5 shrink-0" />
+            <Icon className="ml-2">
+              <MailIcon />
+            </Icon>
             <p>{t("email")}</p>
           </Link>
         </Button>
         <Button
           asChild
           variant="link"
-          className="flex h-6 w-fit items-center gap-4 p-0 font-light"
+          className="flex h-6 w-fit items-center gap-3 p-0 font-light"
         >
           <Link
             href="https://www.linkedin.com/in/sabinesun/"
             target="_blank"
             rel="noreferrer"
           >
-            <LinkedinIcon className="ml-2 size-5 shrink-0" />
+            <Icon className="ml-2">
+              <LinkedinIcon />
+            </Icon>
             <p>{t("linkedin")}</p>
           </Link>
         </Button>
         <Button
           asChild
           variant="link"
-          className="flex h-6 w-fit items-center gap-4 p-0 font-light"
+          className="flex h-6 w-fit items-center gap-3 p-0 font-light"
         >
           <Link
             href="https://github.com/sabinesun"
             target="_blank"
             rel="noreferrer"
           >
-            <Github className="ml-2 size-5 shrink-0" />
+            <Icon className="ml-2">
+              <Github />
+            </Icon>
             <p>{t("github")}</p>
           </Link>
         </Button>
