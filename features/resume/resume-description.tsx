@@ -1,11 +1,12 @@
 import { Button } from "@/components/ui/button";
 import {
   CodeIcon,
-  EnvelopeClosedIcon,
-  GitHubLogoIcon,
+  Github,
   HomeIcon,
-  LinkedInLogoIcon,
-} from "@radix-ui/react-icons";
+  LinkedinIcon,
+  MailIcon,
+} from "lucide-react";
+
 import { getTranslations } from "next-intl/server";
 import Link from "next/link";
 import { type ReactNode } from "react";
@@ -20,10 +21,10 @@ export const ResumeDescription = async () => {
       target="_blank"
     >
       <p className="relative inline-flex items-center gap-1">
-        <span className="inline-block translate-x-4 opacity-0 transition duration-200 ease-out group-hover:translate-x-0 group-hover:opacity-100 ">
+        <span className="inline-block translate-x-4 opacity-0 transition duration-200 ease-out group-hover:translate-x-0 group-hover:opacity-100">
           🍃
         </span>
-        <span className="inline-block -translate-x-4  transition  duration-200 ease-out group-hover:translate-x-0 group-hover:font-medium group-hover:text-green-700">
+        <span className="inline-block -translate-x-4 transition duration-200 ease-out group-hover:translate-x-0 group-hover:font-medium group-hover:text-green-700">
           {chunks}
         </span>
       </p>
@@ -33,7 +34,7 @@ export const ResumeDescription = async () => {
   return (
     <div className="text-sm">
       <div className="flex flex-col gap-1">
-        <div className="flex h-6 w-fit items-center gap-4 whitespace-nowrap p-0 font-light">
+        <div className="flex h-6 w-fit items-center gap-4 p-0 px-3 font-light whitespace-nowrap">
           <CodeIcon className="ml-2 size-5 shrink-0" />
           <span>{t.rich("headline", { company })}</span>
         </div>
@@ -57,7 +58,7 @@ export const ResumeDescription = async () => {
           className="flex h-6 w-fit items-center gap-4 p-0 font-light"
         >
           <Link href="mailto:sabine.sun@protonmail.com">
-            <EnvelopeClosedIcon className="ml-2 size-5 shrink-0" />
+            <MailIcon className="ml-2 size-5 shrink-0" />
             <p>{t("email")}</p>
           </Link>
         </Button>
@@ -71,7 +72,7 @@ export const ResumeDescription = async () => {
             target="_blank"
             rel="noreferrer"
           >
-            <LinkedInLogoIcon className="ml-2 size-5 shrink-0" />
+            <LinkedinIcon className="ml-2 size-5 shrink-0" />
             <p>{t("linkedin")}</p>
           </Link>
         </Button>
@@ -85,7 +86,7 @@ export const ResumeDescription = async () => {
             target="_blank"
             rel="noreferrer"
           >
-            <GitHubLogoIcon className="ml-2 size-5 shrink-0" />
+            <Github className="ml-2 size-5 shrink-0" />
             <p>{t("github")}</p>
           </Link>
         </Button>

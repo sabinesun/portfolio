@@ -1,4 +1,4 @@
-import { HeartIcon } from "@radix-ui/react-icons";
+import { HeartIcon } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
 const Footer = async () => {
