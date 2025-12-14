@@ -8,7 +8,9 @@ const Footer = async () => {
     <footer className="m-10 flex justify-center">
       <div className="flex items-center gap-1 md:max-w-xl">
         <p className="text-xs">{t("made-with")}</p>
-        <HeartIcon className="size-4 shrink-0" />
+        <span className="inline-flex h-5 w-5 items-center justify-center">
+          <HeartIcon className="size-5 shrink-0 scale-90 fill-transparent transition duration-200 ease-out hover:scale-100 hover:fill-red-500 hover:text-red-500" />
+        </span>
       </div>
     </footer>
   );
