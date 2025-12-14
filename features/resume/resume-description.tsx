@@ -20,7 +20,7 @@ export const ResumeDescription = async () => {
       rel="noreferrer"
       target="_blank"
     >
-      <p className="relative inline-flex items-center gap-1">
+      <p className="relative inline-flex items-center gap-0.5">
         <span className="inline-block translate-x-4 opacity-0 transition duration-200 ease-out group-hover:translate-x-0 group-hover:opacity-100">
           🍃
         </span>
