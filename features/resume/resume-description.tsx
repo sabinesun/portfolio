@@ -24,7 +24,7 @@ export const ResumeDescription = async () => {
         <span className="inline-block translate-x-4 opacity-0 transition duration-200 ease-out group-hover:translate-x-0 group-hover:opacity-100">
           🍃
         </span>
-        <span className="inline-block -translate-x-4 transition duration-200 ease-out group-hover:translate-x-0 group-hover:font-medium group-hover:text-green-700">
+        <span className="inline-block -translate-x-4 font-medium transition duration-200 ease-out group-hover:translate-x-0 group-hover:text-green-700">
           {chunks}
         </span>
       </p>
