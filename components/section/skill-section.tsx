@@ -15,6 +15,8 @@ export const SkillSection = async () => {
             <Link
               className={badgeVariants({ variant: "secondary" })}
               href={url}
+              rel="noreferrer"
+              target="_blank"
             >
               {t(nameKey)}
             </Link>
