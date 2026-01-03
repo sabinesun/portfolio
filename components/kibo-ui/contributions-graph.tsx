@@ -398,11 +398,11 @@ export const ContributionGraphBlock = ({
   return (
     <rect
       className={cn(
-        'data-[level="0"]:fill-muted',
+        'data-[level="0"]:fill-muted-foreground/5',
         'data-[level="1"]:fill-muted-foreground/20',
-        'data-[level="2"]:fill-muted-foreground/50',
-        'data-[level="3"]:fill-muted-foreground/80',
-        'data-[level="4"]:fill-muted-foreground',
+        'data-[level="2"]:fill-muted-foreground/40',
+        'data-[level="3"]:fill-muted-foreground/60',
+        'data-[level="4"]:fill-muted-foreground/80',
         className,
       )}
       data-count={activity.count}
@@ -578,11 +578,11 @@ export const ContributionGraphLegend = ({
             <rect
               className={cn(
                 "stroke-border stroke-[1px] transition duration-150",
-                'data-[level="0"]:fill-muted',
+                'data-[level="0"]:fill-muted-foreground/5',
                 'data-[level="1"]:fill-muted-foreground/20',
-                'data-[level="2"]:fill-muted-foreground/50',
-                'data-[level="3"]:fill-muted-foreground/80',
-                'data-[level="4"]:fill-muted-foreground',
+                'data-[level="2"]:fill-muted-foreground/40',
+                'data-[level="3"]:fill-muted-foreground/60',
+                'data-[level="4"]:fill-muted-foreground/80',
                 isActive &&
                   `data-[level="0"]:fill-[#ebedf0] dark:data-[level="0"]:fill-[#161b22]`,
                 isActive &&
