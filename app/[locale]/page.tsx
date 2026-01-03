@@ -45,7 +45,7 @@ const Home = async () => {
             </h2>
             <DescriptionSection />
           </section>
-          <section>
+          <section className="max-w-screen">
             <GitHubContributionsGraph contributions={contributions} />
           </section>
           <section>
