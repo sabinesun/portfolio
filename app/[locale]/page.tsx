@@ -2,6 +2,8 @@ import { DescriptionSection } from "@/components/section/description-section";
 import { ProjectSection } from "@/components/section/project-section";
 import { SkillSection } from "@/components/section/skill-section";
 import { WorkSection } from "@/components/section/work/work-section";
+import { GitHubContributionsGraph } from "@/features/github/components/contributions-graph";
+import { getGitHubContributions } from "@/features/github/server/get-contributions";
 import { ResumeDescription } from "@/features/resume/resume-description";
 import resume from "@/resume.json";
 import { getTranslations } from "next-intl/server";
@@ -15,6 +17,7 @@ const Home = async () => {
   const { basics } = resume;
   const isDecember = new Date().getMonth() === 11;
   const avatarSrc = isDecember ? "/logo/me-christmas.svg" : "/logo/me.svg";
+  const contributions = getGitHubContributions();
 
   return (
     <main className="flex flex-col items-center font-light">
@@ -25,11 +28,11 @@ const Home = async () => {
               <div className="relative block size-28 shrink-0 md:size-36">
                 <Image alt="" fill src={avatarSrc} />
               </div>
-              <div className="absolute left-28 top-1/2 md:left-36">
-                <h2 className="text-lg font-medium leading-6">
+              <div className="absolute top-1/2 left-28 md:left-36">
+                <h2 className="text-lg leading-6 font-medium">
                   {tResume(basics.nameKey)}
                 </h2>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-muted-foreground text-sm">
                   {tHome("tagline")}
                 </p>
               </div>
@@ -41,6 +44,9 @@ const Home = async () => {
               {tHome("about-heading")}
             </h2>
             <DescriptionSection />
+          </section>
+          <section>
+            <GitHubContributionsGraph contributions={contributions} />
           </section>
           <section>
             <h2 className="mb-4 w-full text-xl font-medium">
@@ -55,7 +61,7 @@ const Home = async () => {
             <WorkSection />
           </section>
           <section>
-            <h2 className="mb-4 mt-10 w-full text-xl font-medium">
+            <h2 className="mt-10 mb-4 w-full text-xl font-medium">
               {tHome("projects-heading")}
             </h2>
             <ProjectSection />

@@ -39,6 +39,34 @@
   "footer": {
     "made-with": "Fait avec"
   },
+  "github-contributions": {
+    "tooltip": "{count, plural, one {{count, number} contribution le {date}} other {{count, number} contributions le {date}}}",
+    "total": "{count, number} contributions en {year} sur <link>GitHub</link>.",
+    "graph": {
+      "title": "Graphique des contributions",
+      "months": [
+        "janv.",
+        "févr.",
+        "mars",
+        "avr.",
+        "mai",
+        "juin",
+        "juil.",
+        "août",
+        "sept.",
+        "oct.",
+        "nov.",
+        "déc."
+      ],
+      "weekdays": ["dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."],
+      "total-count": "{count, number} contributions en {year}",
+      "legend": {
+        "less": "Moins",
+        "more": "Plus",
+        "level": "{count, plural, one {{count} contribution} other {{count} contributions}}"
+      }
+    }
+  },
   "resume": {
     "basics": {
       "name": "Sabine Sun",

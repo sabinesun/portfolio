@@ -39,6 +39,34 @@
   "footer": {
     "made-with": "Made with"
   },
+  "github-contributions": {
+    "tooltip": "{count, plural, one {{count, number} contribution on {date}} other {{count, number} contributions on {date}}}",
+    "total": "{count, number} contributions in {year} on <link>GitHub</link>.",
+    "graph": {
+      "title": "Contribution Graph",
+      "months": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "weekdays": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+      "total-count": "{count, number} contributions in {year}",
+      "legend": {
+        "less": "Less",
+        "more": "More",
+        "level": "{count, plural, one {{count} contribution} other {{count} contributions}}"
+      }
+    }
+  },
   "resume": {
     "basics": {
       "name": "Sabine Sun",
