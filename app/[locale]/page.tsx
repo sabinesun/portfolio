@@ -20,7 +20,7 @@ const Home = async () => {
   const contributions = getGitHubContributions();
 
   return (
-    <main className="flex flex-col items-center font-light">
+    <main className="flex max-w-screen flex-col items-center font-light">
       <div className="w-full md:max-w-xl">
         <div className="mx-8 flex flex-col gap-10 md:mx-0">
           <section>
@@ -45,7 +45,7 @@ const Home = async () => {
             </h2>
             <DescriptionSection />
           </section>
-          <section className="max-w-screen">
+          <section>
             <GitHubContributionsGraph contributions={contributions} />
           </section>
           <section>
