@@ -61,7 +61,7 @@ const Home = async () => {
             <WorkSection />
           </section>
           <section>
-            <h2 className="mt-10 mb-4 w-full text-xl font-medium">
+            <h2 className="mb-4 w-full text-xl font-medium">
               {tHome("projects-heading")}
             </h2>
             <ProjectSection />
