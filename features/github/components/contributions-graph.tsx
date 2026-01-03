@@ -2,7 +2,7 @@
 
 import { LoaderIcon } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
-import { use, useEffect, useMemo, useRef } from "react";
+import { use, useEffect, useMemo, useRef, useState } from "react";
 
 import type { Activity } from "@/components/kibo-ui/contributions-graph";
 import {
@@ -30,6 +30,10 @@ export function GitHubContributionsGraph({
   const t = useTranslations("github-contributions");
   const locale = useLocale();
   const calendarRef = useRef<HTMLDivElement>(null);
+  const closeTooltipTimeout = useRef<ReturnType<typeof setTimeout> | null>(
+    null,
+  );
+  const [activeDate, setActiveDate] = useState<string>();
   const dateFormatter = useMemo(
     () => new Intl.DateTimeFormat(locale, { dateStyle: "medium" }),
     [locale],
@@ -50,6 +54,21 @@ export function GitHubContributionsGraph({
     }
   }, [data]);
 
+  const handleBlockEnter = (date: string) => {
+    if (closeTooltipTimeout.current) {
+      clearTimeout(closeTooltipTimeout.current);
+      closeTooltipTimeout.current = null;
+    }
+    setActiveDate(date);
+  };
+
+  const handleBlockLeave = () => {
+    closeTooltipTimeout.current = setTimeout(() => {
+      setActiveDate(undefined);
+      closeTooltipTimeout.current = null;
+    }, 40);
+  };
+
   return (
     <TooltipProvider>
       <ContributionGraph
@@ -64,13 +83,15 @@ export function GitHubContributionsGraph({
           className="no-scrollbar px-2"
         >
           {({ activity, dayIndex, weekIndex }) => (
-            <Tooltip>
+            <Tooltip open={activeDate === activity.date}>
               <TooltipTrigger asChild>
                 <g>
                   <ContributionGraphBlock
                     activity={activity}
                     dayIndex={dayIndex}
                     weekIndex={weekIndex}
+                    onMouseEnter={() => handleBlockEnter(activity.date)}
+                    onMouseLeave={handleBlockLeave}
                     className={cn(
                       'hover:data-[level="0"]:fill-[#ebedf0] hover:dark:data-[level="0"]:fill-[#161b22]',
                       'hover:data-[level="1"]:fill-[#9be9a8] hover:dark:data-[level="1"]:fill-[#0e4429]',
