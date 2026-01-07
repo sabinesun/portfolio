@@ -41,18 +41,46 @@
         "work.kiosk.highlights.architecture-refactor"
       ],
       "skills": [
-        { "id": "react", "nameKey": "skills.react", "url": "https://fr.react.dev/" },
+        {
+          "id": "react",
+          "nameKey": "skills.react",
+          "url": "https://fr.react.dev/"
+        },
         {
           "id": "typescript",
           "nameKey": "skills.typescript",
           "url": "https://www.typescriptlang.org/"
         },
-        { "id": "remix", "nameKey": "skills.remix", "url": "https://remix.run/" },
-        { "id": "mantine", "nameKey": "skills.mantine", "url": "https://mantine.dev/" },
-        { "id": "prisma", "nameKey": "skills.prisma", "url": "https://www.prisma.io/" },
-        { "id": "storybook", "nameKey": "skills.storybook", "url": "https://storybook.js.org/" },
-        { "id": "playwright", "nameKey": "skills.playwright", "url": "https://playwright.dev/" },
-        { "id": "i18next", "nameKey": "skills.i18next", "url": "https://www.i18next.com/" }
+        {
+          "id": "remix",
+          "nameKey": "skills.remix",
+          "url": "https://remix.run/"
+        },
+        {
+          "id": "mantine",
+          "nameKey": "skills.mantine",
+          "url": "https://mantine.dev/"
+        },
+        {
+          "id": "prisma",
+          "nameKey": "skills.prisma",
+          "url": "https://www.prisma.io/"
+        },
+        {
+          "id": "storybook",
+          "nameKey": "skills.storybook",
+          "url": "https://storybook.js.org/"
+        },
+        {
+          "id": "playwright",
+          "nameKey": "skills.playwright",
+          "url": "https://playwright.dev/"
+        },
+        {
+          "id": "i18next",
+          "nameKey": "skills.i18next",
+          "url": "https://www.i18next.com/"
+        }
       ]
     },
     {
@@ -73,16 +101,36 @@
         "work.canal.highlights.maintainability"
       ],
       "skills": [
-        { "id": "react", "nameKey": "skills.react", "url": "https://fr.react.dev/" },
+        {
+          "id": "react",
+          "nameKey": "skills.react",
+          "url": "https://fr.react.dev/"
+        },
         {
           "id": "typescript",
           "nameKey": "skills.typescript",
           "url": "https://www.typescriptlang.org/"
         },
-        { "id": "scss", "nameKey": "skills.scss", "url": "https://sass-lang.com/" },
-        { "id": "storybook", "nameKey": "skills.storybook", "url": "https://storybook.js.org/" },
-        { "id": "vitest", "nameKey": "skills.vitest", "url": "https://vitest.dev/" },
-        { "id": "playwright", "nameKey": "skills.playwright", "url": "https://playwright.dev/" },
+        {
+          "id": "scss",
+          "nameKey": "skills.scss",
+          "url": "https://sass-lang.com/"
+        },
+        {
+          "id": "storybook",
+          "nameKey": "skills.storybook",
+          "url": "https://storybook.js.org/"
+        },
+        {
+          "id": "vitest",
+          "nameKey": "skills.vitest",
+          "url": "https://vitest.dev/"
+        },
+        {
+          "id": "playwright",
+          "nameKey": "skills.playwright",
+          "url": "https://playwright.dev/"
+        },
         { "id": "a11y", "nameKey": "skills.a11y" },
         { "id": "i18n", "nameKey": "skills.i18n" }
       ]
@@ -128,7 +176,7 @@
       "logo": "/logo/episo.svg",
       "logoDark": "/logo/episo-dark.svg",
       "year": "2025",
-      "url": "https://episo.vercel.app/en/trending"
+      "url": "https://github.com/sabinesun/episo"
     },
     {
       "id": "delices",
@@ -149,22 +197,38 @@
     }
   ],
   "skills": [
-    { "id": "react", "nameKey": "skills.react", "url": "https://fr.react.dev/" },
+    {
+      "id": "react",
+      "nameKey": "skills.react",
+      "url": "https://fr.react.dev/"
+    },
     {
       "id": "typescript",
       "nameKey": "skills.typescript",
       "url": "https://www.typescriptlang.org/"
     },
     { "id": "remix", "nameKey": "skills.remix", "url": "https://remix.run/" },
-    { "id": "css", "nameKey": "skills.css", "url": "https://developer.mozilla.org/fr/docs/Web/CSS" },
+    {
+      "id": "css",
+      "nameKey": "skills.css",
+      "url": "https://developer.mozilla.org/fr/docs/Web/CSS"
+    },
     { "id": "scss", "nameKey": "skills.scss", "url": "https://sass-lang.com/" },
     {
       "id": "tailwind",
       "nameKey": "skills.tailwind",
       "url": "https://tailwindcss.com/"
     },
-    { "id": "storybook", "nameKey": "skills.storybook", "url": "https://storybook.js.org/" },
-    { "id": "vitest", "nameKey": "skills.vitest", "url": "https://vitest.dev/" },
+    {
+      "id": "storybook",
+      "nameKey": "skills.storybook",
+      "url": "https://storybook.js.org/"
+    },
+    {
+      "id": "vitest",
+      "nameKey": "skills.vitest",
+      "url": "https://vitest.dev/"
+    },
     {
       "id": "playwright",
       "nameKey": "skills.playwright",
@@ -175,6 +239,10 @@
       "nameKey": "skills.a11y",
       "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility"
     },
-    { "id": "i18next", "nameKey": "skills.i18next", "url": "https://www.i18next.com/" }
+    {
+      "id": "i18next",
+      "nameKey": "skills.i18next",
+      "url": "https://www.i18next.com/"
+    }
   ]
 }
