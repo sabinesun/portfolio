@@ -3,8 +3,7 @@
     "tagline": "Every pixel has a purpose.",
     "about-heading": "À propos",
     "skills-heading": "Compétences",
-    "experience-heading": "Expérience professionnelle",
-    "projects-heading": "Projets"
+    "experience-heading": "Expérience professionnelle"
   },
   "description-section": {
     "paragraphs": {
@@ -125,20 +124,6 @@
           "client-needs": "Analyse des besoins du client, prise en main rapide du framework maison",
           "modernization": "Modernisation du logiciel SaaS de planification de supply chain"
         }
-      }
-    },
-    "projects": {
-      "episo": {
-        "name": "Episo",
-        "description": "Moteur de recherche de film et de série"
-      },
-      "delices": {
-        "name": "Délices de Yifan",
-        "description": "Projet pour le restaurant familial"
-      },
-      "sopra": {
-        "name": "Sopra Steria",
-        "description": "Projet universitaire avec Sopra Steria"
       }
     },
     "skills": {

@@ -1,5 +1,4 @@
 import { DescriptionSection } from "@/components/section/description-section";
-import { ProjectSection } from "@/components/section/project-section";
 import { SkillSection } from "@/components/section/skill-section";
 import { WorkSection } from "@/components/section/work/work-section";
 import { GitHubContributionsGraph } from "@/features/github/components/contributions-graph";
@@ -59,12 +58,6 @@ const Home = async () => {
               {tHome("experience-heading")}
             </h2>
             <WorkSection />
-          </section>
-          <section>
-            <h2 className="mb-4 w-full text-xl font-medium">
-              {tHome("projects-heading")}
-            </h2>
-            <ProjectSection />
           </section>
         </div>
       </div>

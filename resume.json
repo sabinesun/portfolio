@@ -214,34 +214,6 @@
       ]
     }
   ],
-  "projects": [
-    {
-      "id": "episo",
-      "nameKey": "projects.episo.name",
-      "descriptionKey": "projects.episo.description",
-      "logo": "/logo/episo.svg",
-      "logoDark": "/logo/episo-dark.svg",
-      "year": "2025",
-      "url": "https://github.com/sabinesun/episo"
-    },
-    {
-      "id": "delices",
-      "nameKey": "projects.delices.name",
-      "descriptionKey": "projects.delices.description",
-      "logo": "/logo/delice-de-yifan.svg",
-      "logoDark": "/logo/delice-de-yifan.svg",
-      "year": "2024"
-    },
-    {
-      "id": "sopra",
-      "nameKey": "projects.sopra.name",
-      "descriptionKey": "projects.sopra.description",
-      "logo": "/logo/sopra-steria.svg",
-      "logoDark": "/logo/sopra-steria.svg",
-      "year": "2023",
-      "url": "https://github.com/strawhattom/battle-judge-front"
-    }
-  ],
   "skills": [
     {
       "id": "react",
