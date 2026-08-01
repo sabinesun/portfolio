@@ -15,7 +15,7 @@
     }
   },
   "resume-description": {
-    "headline": "Ingénieure frontend orientée produit <company>@Kiosk</company>",
+    "headline": "Ingénieure frontend orientée produit <company>@Dataiku</company>",
     "location": "Paris, France",
     "email": "sabine.sun@protonmail.com",
     "linkedin": "linkedin.com/in/sabinesun",
@@ -74,12 +74,25 @@
       "summary": "Rigoureuse et autonome, je suis à la recherche d’un CDI en développement front-end à partir d’octobre 2024."
     },
     "work": {
+      "dataiku": {
+        "name": "Dataiku",
+        "location": "Paris, France",
+        "position": "Ingénieure Frontend",
+        "summary": "[Dataiku](https://www.dataiku.com/) est une plateforme d’IA pour les entreprises. Je développe son interface d’administration cloud et ses fondations frontend.",
+        "end-date": "Aujourd’hui",
+        "highlights": {
+          "usage-monitoring": "Réalisé une refonte de l’espace Usage & Monitoring à travers 20 tickets, avec des vues plus claires pour le stockage, le trafic réseau, les configurations et les activités en cours.",
+          "frontend-foundation": "Modernisé le socle frontend avec une architecture plus modulaire, Vitest, l’exécution des tests en CI, le contrôle TypeScript et les modules Sass.",
+          "support-workflows": "Simplifié les parcours du support, notamment en réduisant une opération d’accès aux nœuds de quatre clics et un chargement de page à un ou deux clics.",
+          "data-fetching": "Mis en œuvre la migration des principaux flux de récupération de données, auparavant gérés manuellement ou avec RxJS, vers Pinia Colada afin d’uniformiser le cache, l’invalidation et les états asynchrones."
+        }
+      },
       "kiosk": {
         "name": "Kiosk",
         "location": "Paris, 75003",
         "position": "Ingénieure Frontend",
-        "summary": "Kiosk est le logiciel qui permet aux entreprises de se mettre en conformité avec la CSRD.",
-        "end-date": "Aujourd'hui",
+        "summary": "[Kiosk](https://www.meetkiosk.com/) est le logiciel qui permet aux entreprises de se mettre en conformité avec la CSRD.",
+        "end-date": "03/26",
         "highlights": {
           "navigation-speed": "Résolution de bugs critiques ayant réduit le temps de navigation de 4,62s à moins de 30ms, améliorant significativement l’expérience utilisateur.",
           "design-system": "Mise en place d’un design system garantissant cohérence visuelle et meilleure UX.",
@@ -142,7 +155,10 @@
       "mantine": "Mantine",
       "prisma": "Prisma",
       "i18n": "i18n",
-      "custom-framework": "Framework maison"
+      "custom-framework": "Framework maison",
+      "vue": "Vue",
+      "pinia-colada": "Pinia Colada",
+      "rxjs": "RxJS"
     }
   }
 }

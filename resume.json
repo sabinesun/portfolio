@@ -25,6 +25,56 @@
   },
   "work": [
     {
+      "id": "dataiku",
+      "nameKey": "work.dataiku.name",
+      "locationKey": "work.dataiku.location",
+      "positionKey": "work.dataiku.position",
+      "summaryKey": "work.dataiku.summary",
+      "url": "https://www.dataiku.com/",
+      "logo": "/logo/dataiku.svg",
+      "logoDark": "/logo/dataiku.svg",
+      "startDate": "03/26",
+      "endDateKey": "work.dataiku.end-date",
+      "highlights": [
+        "work.dataiku.highlights.usage-monitoring",
+        "work.dataiku.highlights.frontend-foundation",
+        "work.dataiku.highlights.support-workflows",
+        "work.dataiku.highlights.data-fetching"
+      ],
+      "skills": [
+        {
+          "id": "vue",
+          "nameKey": "skills.vue",
+          "url": "https://vuejs.org/"
+        },
+        {
+          "id": "typescript",
+          "nameKey": "skills.typescript",
+          "url": "https://www.typescriptlang.org/"
+        },
+        {
+          "id": "pinia-colada",
+          "nameKey": "skills.pinia-colada",
+          "url": "https://pinia-colada.esm.dev/"
+        },
+        {
+          "id": "rxjs",
+          "nameKey": "skills.rxjs",
+          "url": "https://rxjs.dev/"
+        },
+        {
+          "id": "vitest",
+          "nameKey": "skills.vitest",
+          "url": "https://vitest.dev/"
+        },
+        {
+          "id": "scss",
+          "nameKey": "skills.scss",
+          "url": "https://sass-lang.com/"
+        }
+      ]
+    },
+    {
       "id": "kiosk",
       "nameKey": "work.kiosk.name",
       "locationKey": "work.kiosk.location",

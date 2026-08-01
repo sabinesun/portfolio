@@ -15,7 +15,7 @@
     }
   },
   "resume-description": {
-    "headline": "Product-Focused Frontend Engineer <company>@Kiosk</company>",
+    "headline": "Product-Focused Frontend Engineer <company>@Dataiku</company>",
     "location": "Paris, France",
     "email": "sabine.sun@protonmail.com",
     "linkedin": "linkedin.com/in/sabinesun",
@@ -74,12 +74,25 @@
       "summary": "Diligent and autonomous, I'm looking for a full-time frontend position starting in October 2024."
     },
     "work": {
+      "dataiku": {
+        "name": "Dataiku",
+        "location": "Paris, France",
+        "position": "Frontend Engineer",
+        "summary": "[Dataiku](https://www.dataiku.com/) is an enterprise AI platform. I build its cloud administration interface and frontend foundations.",
+        "end-date": "Present",
+        "highlights": {
+          "usage-monitoring": "Delivered a 20-story redesign of Usage & Monitoring, creating clearer views for storage, network traffic, configurations, and running activities.",
+          "frontend-foundation": "Modernized the frontend foundation with clearer module boundaries, Vitest, automated CI tests, TypeScript checks, and Sass modules.",
+          "support-workflows": "Simplified support workflows, reducing a node-access process from four clicks and a page fetch to one or two clicks.",
+          "data-fetching": "Implemented the migration of key data-fetching flows from manual and RxJS-based state management to Pinia Colada, standardizing caching, invalidation, and asynchronous UI states."
+        }
+      },
       "kiosk": {
         "name": "Kiosk",
         "location": "Paris, 75003",
         "position": "Frontend Engineer",
-        "summary": "Kiosk provides the software companies use to ensure CSRD compliance.",
-        "end-date": "Present",
+        "summary": "[Kiosk](https://www.meetkiosk.com/) provides the software companies use to ensure CSRD compliance.",
+        "end-date": "03/26",
         "highlights": {
           "navigation-speed": "Resolved critical bugs that cut navigation time from 4.62s to under 30ms, significantly improving the user experience.",
           "design-system": "Introduced a design system that ensures visual consistency and a smoother UX.",
@@ -142,7 +155,10 @@
       "mantine": "Mantine",
       "prisma": "Prisma",
       "i18n": "i18n",
-      "custom-framework": "In-house framework"
+      "custom-framework": "In-house framework",
+      "vue": "Vue",
+      "pinia-colada": "Pinia Colada",
+      "rxjs": "RxJS"
     }
   }
 }
