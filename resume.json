@@ -58,11 +58,6 @@
           "url": "https://pinia-colada.esm.dev/"
         },
         {
-          "id": "rxjs",
-          "nameKey": "skills.rxjs",
-          "url": "https://rxjs.dev/"
-        },
-        {
           "id": "vitest",
           "nameKey": "skills.vitest",
           "url": "https://vitest.dev/"
@@ -86,6 +81,7 @@
       "startDate": "11/24",
       "endDateKey": "work.kiosk.end-date",
       "highlights": [
+        "work.kiosk.highlights.product-ownership",
         "work.kiosk.highlights.navigation-speed",
         "work.kiosk.highlights.design-system",
         "work.kiosk.highlights.architecture-refactor"
@@ -253,9 +249,19 @@
       "url": "https://fr.react.dev/"
     },
     {
+      "id": "vue",
+      "nameKey": "skills.vue",
+      "url": "https://vuejs.org/"
+    },
+    {
       "id": "typescript",
       "nameKey": "skills.typescript",
       "url": "https://www.typescriptlang.org/"
+    },
+    {
+      "id": "pinia-colada",
+      "nameKey": "skills.pinia-colada",
+      "url": "https://pinia-colada.esm.dev/"
     },
     { "id": "remix", "nameKey": "skills.remix", "url": "https://remix.run/" },
     {

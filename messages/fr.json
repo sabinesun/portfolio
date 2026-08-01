@@ -90,10 +90,11 @@
       "kiosk": {
         "name": "Kiosk",
         "location": "Paris, 75003",
-        "position": "Ingénieure Frontend",
-        "summary": "[Kiosk](https://www.meetkiosk.com/) est le logiciel qui permet aux entreprises de se mettre en conformité avec la CSRD.",
+        "position": "Ingénieure Produit — Frontend",
+        "summary": "J’ai contribué à la conception produit, au design, à la planification et au développement frontend de [Kiosk](https://www.meetkiosk.com/), une plateforme de conformité CSRD.",
         "end-date": "03/26",
         "highlights": {
+          "product-ownership": "Transformation des besoins produit en tickets actionnables, participation à la priorisation et à la répartition du travail, puis coordination de la livraison avec l’équipe.",
           "navigation-speed": "Résolution de bugs critiques ayant réduit le temps de navigation de 4,62s à moins de 30ms, améliorant significativement l’expérience utilisateur.",
           "design-system": "Mise en place d’un design system garantissant cohérence visuelle et meilleure UX.",
           "architecture-refactor": "Refonte de l’architecture front-end avec une approche modulaire (Domain-Driven Design) : mise en place d’entités, services et dépôts de données séparés, améliorant la maintenabilité et la lisibilité du code."
@@ -157,8 +158,7 @@
       "i18n": "i18n",
       "custom-framework": "Framework maison",
       "vue": "Vue",
-      "pinia-colada": "Pinia Colada",
-      "rxjs": "RxJS"
+      "pinia-colada": "Pinia Colada"
     }
   }
 }
