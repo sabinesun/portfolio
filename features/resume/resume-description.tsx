@@ -17,15 +17,15 @@ export const ResumeDescription = async () => {
   const company = (chunks: ReactNode) => (
     <Link
       className="group relative inline-flex items-center"
-      href="https://www.meetkiosk.com/"
+      href="https://www.dataiku.com/"
       rel="noreferrer"
       target="_blank"
     >
       <p className="relative inline-flex items-center gap-0.5">
         <span className="inline-block translate-x-4 opacity-0 transition duration-200 ease-out group-hover:translate-x-0 group-hover:opacity-100">
-          🍃
+          🐦
         </span>
-        <span className="inline-block -translate-x-4 font-medium transition duration-200 ease-out group-hover:translate-x-0 group-hover:text-green-700">
+        <span className="inline-block -translate-x-4 font-medium transition duration-200 ease-out group-hover:translate-x-0 group-hover:text-[#07312E]">
           {chunks}
         </span>
       </p>
